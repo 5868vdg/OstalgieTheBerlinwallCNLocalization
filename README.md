@@ -1,1 +1,3 @@
 # OstalgieTheBerlinwallCNLocalization
+东德情结：柏林墙C#文件的汉化
+汉化完成后的文件将在这里发布
