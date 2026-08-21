@@ -142,7 +142,7 @@ public class Savescript : MonoBehaviour
 		}
 		if (PlayerPrefs.GetInt("language") == 0)
 		{
-			this.Opis.text = "SAVED";
+			this.Opis.text = " 已 保 存";
 			return;
 		}
 		this.Opis.text = "СОХРАНЕНО";

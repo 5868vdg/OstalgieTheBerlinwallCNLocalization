@@ -126,11 +126,11 @@ public class MapChangesScript : MonoBehaviour
 		{
 			if (PlayerPrefs.GetInt("language") == 0)
 			{
-				this.global1.allcountries[6].name = "Yugoslav\nBulgaria";
+				this.global1.allcountries[6].name = " 南 斯 拉 夫 属\n 保 加 利 亚";
 			}
 			else
 			{
-				this.global1.allcountries[6].name = " 南 斯 拉 夫 属\n 保 加 利 亚";
+				this.global1.allcountries[6].name = "Югославская\nБолгария";
 			}
 		}
 		for (int i = 0; i < this.cont.Length; i++)

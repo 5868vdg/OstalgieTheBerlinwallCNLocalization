@@ -2119,74 +2119,74 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] != 0)
 						{
-							array[0] = "Recognize the plotters, who advocated peace and do not have the further goal of enmity in the USSR, as national heroes.";
+							array[0] = " 承 认 那 些 提 倡 和 平 、 无 意 与 苏 联 继 续 为 敌 的 策 划 者 为 民 族 英 雄";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "We will not praise the Nazis";
+							array[0] = " 我 们 不 会 称 赞 纳 粹";
 						}
 						if (this.global1.data[31] >= 600 || this.global1.data[22] >= 600 || this.global1.data[6] <= 600 || this.global1.data[6] >= 950)
 						{
-							array[1] = "Declare the plotters as traitors.";
+							array[1] = " 宣 布 密 谋 者 为 卖 国 贼";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We will not praise the Nazis";
+							array[1] = " 我 们 不 会 称 赞 纳 粹";
 						}
-						array[2] = "Continue the old line.";
+						array[2] = " 继 续 旧 的 路 线";
 					}
 					else if (this.global1.number_event == 75)
 					{
 						this.kolvo_variant = 4;
 						if (this.global1.data[0] != 10 && this.global1.allcountries[this.global1.data[0]].isOVD && this.global1.allcountries[7].isOVD && this.global1.allcountries[7].Gosstroy <= 1)
 						{
-							array[0] = "Encourage the Warsaw Pact to help Najibullah.";
+							array[0] = " 鼓 励 华 沙 条 约 组 织 帮 助 纳 吉 布 拉";
 						}
 						else if (this.global1.data[0] != 10 && this.global1.allcountries[this.global1.data[0]].isOVD)
 						{
-							array[0] = "Call on alliance allies to help Najibullah.";
+							array[0] = " 鼓 励 盟 友 帮 助 纳 吉 布 拉";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "We have neither the means nor the reasons for conducting such operations.";
+							array[0] = " 我 们 既 没 有 手 段 也 没 有 理 由 去 采 取 这 种 行 动";
 						}
 						if (this.global1.data[8] >= 30 && this.global1.data[9] >= 30)
 						{
-							array[1] = "Support and send a group of agents to fight the opposition.";
+							array[1] = " 支 持 并 派 遣 一 队 特 工 去 与 反 对 派 战 斗";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "If the Soviets refused, then what is the point of interfere?";
+							array[1] = " 如 果 苏 联 拒 绝 了 ， 那 么 干 涉 又 有 什 么 意 义 呢 ？";
 						}
 						array[2] = "This is not our business.";
 						if (this.global1.data[8] + this.global1.data[9] >= 120)
 						{
-							array[3] = "Reach out to Tanay and give him support.";
+							array[3] = " 联 系 塔 纳 伊 并 提 供 援 助";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "There is no point in interfering in the internal politics of Afghanistan.";
+							array[3] = " 干 涉 阿 富 汗 的 内 政 没 有 意 义";
 						}
 					}
 					else if (this.global1.number_event == 84)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Put a monument";
+						array[0] = " 兴 建 一 座 纪 念 碑";
 						if (this.global1.data[8] >= 50)
 						{
-							array[1] = "Build a cafe \"Elefant\" and put a monument in front of it, and also create a route to the places of the film";
+							array[1] = " 建 造 一 个 “ 埃 莱 凡 特 ” 咖 啡 馆 ， 在 它 前 面 兴 建 一 座 纪 念 碑 ， 并 且 创 造 一 条 通 往 电 影 地 点 的 路 线";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We do not have money";
+							array[1] = " 我 们 没 有 资 金";
 						}
-						array[2] = "Refuse this idea";
+						array[2] = " 否 决 这 个 想 法";
 					}
 					else if (this.global1.number_event == 79)
 					{
@@ -2195,27 +2195,27 @@ public class doneventscript : MonoBehaviour
 						{
 							if (!this.global1.event_done[62] && this.global1.allcountries[7].paths != 3)
 							{
-								array[0] = "Help Yeltsin win the election.";
+								array[0] = " 帮 助 叶 利 钦 赢 得 选 举";
 							}
 							else
 							{
-								array[0] = "Help Rutskoy win the election.";
+								array[0] = " 帮 助 鲁 茨 科 伊 赢 得 选 举";
 							}
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "We will never approve of Yeltsinism!";
+							array[0] = " 我 们 绝 不 会 赞 同 叶 利 钦 的 异 端 邪 说 ！";
 						}
-						array[1] = "Ignore it ";
+						array[1] = " 忽 视 它";
 						if ((this.global1.data[14] <= 3 || this.global1.data[6] >= 800) && this.global1.data[9] >= 50 && this.global1.data[8] >= 50 && (this.global1.data[0] != 12 || this.global1.science[2]))
 						{
-							array[2] = "Support conservatives and provoke rallies.";
+							array[2] = " 支 持 保 守 派 并 发 动 集 会";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "We will not interfere in the results of fair elections.";
+							array[2] = " 我 们 不 会 干 涉 公 平 选 举 的 结 果";
 						}
 					}
 					else if (this.global1.number_event == 89)

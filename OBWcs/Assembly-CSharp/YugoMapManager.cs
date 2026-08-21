@@ -2504,7 +2504,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=grey> 伏 伊 伏 丁 那 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=grey> 伏 伊 伏 丁 那 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2515,7 +2515,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=maroon> 伏 伊 伏 丁 那 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=maroon> 伏 伊 伏 丁 那 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2557,7 +2557,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			}
 			else if (PlayerPrefs.GetInt("language") == 0)
 			{
-				text = string.Format("{0} {1}", text, "<color=maroon> 伏 伊 伏 丁 那 共 产 主 义 者 联 \u200b\u200b盟</color>");
+				text = string.Format("{0} {1}", text, "<color=maroon> 伏 伊 伏 丁 那 共 产 主 义 者 联 盟</color>");
 			}
 			else
 			{
@@ -2592,7 +2592,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=grey> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=grey> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2614,7 +2614,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=magenta> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=magenta> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2625,7 +2625,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=maroon> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=maroon> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2658,7 +2658,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=grey> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=grey> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2669,7 +2669,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=magenta> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=magenta> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2680,7 +2680,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=olive> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=olive> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2702,7 +2702,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=maroon> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=maroon> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2735,7 +2735,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=maroon> 科 索 沃 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=maroon> 科 索 沃 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2812,7 +2812,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=grey> 马 其 顿 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=grey> 马 其 顿 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2845,7 +2845,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=maroon> 马 其 顿 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=maroon> 马 其 顿 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2856,7 +2856,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=magenta> 马 其 顿 共 产 主 义 者 联 \u200b\u200b盟 — 民 主 繁 荣 党</color>");
+					text = string.Format("{0} {1}", text, "<color=magenta> 马 其 顿 共 产 主 义 者 联 盟 — 民 主 繁 荣 党</color>");
 				}
 				else
 				{
@@ -2878,7 +2878,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=maroon> 马 其 顿 共 产 主 义 者 联 \u200b\u200b盟</color>");
+					text = string.Format("{0} {1}", text, "<color=maroon> 马 其 顿 共 产 主 义 者 联 盟</color>");
 				}
 				else
 				{
@@ -2889,7 +2889,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=maroon> 马 其 顿 共 产 主 义 者 联 \u200b\u200b盟 — 民 主 繁 荣 党</color>");
+					text = string.Format("{0} {1}", text, "<color=maroon> 马 其 顿 共 产 主 义 者 联 盟 — 民 主 繁 荣 党</color>");
 				}
 				else
 				{
@@ -2933,7 +2933,7 @@ public class YugoMapManager : MonoBehaviour, IButtonPressReceiver
 			{
 				if (PlayerPrefs.GetInt("language") == 0)
 				{
-					text = string.Format("{0} {1}", text, "<color=olive> 由 马 其 顿 共 产 主 义 者 联 \u200b\u200b盟 — 马 其 顿 民 族 统 一 民 主 党 领 导 的 联 盟</color>");
+					text = string.Format("{0} {1}", text, "<color=olive> 由 马 其 顿 共 产 主 义 者 联 盟 — 马 其 顿 民 族 统 一 民 主 党 领 导 的 联 盟</color>");
 				}
 				else
 				{
