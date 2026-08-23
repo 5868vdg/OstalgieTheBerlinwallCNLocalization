@@ -1174,7 +1174,7 @@ public class doneventscript : MonoBehaviour
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = " 资 产 阶 级 民 主 是 过 去 的 遗 迹";
+							array[2] = " 资 产 阶 级 民 主 是 过 去 的 遗 留";
 						}
 						if ((this.global1.data[9] >= 50 && this.global1.data[15] != 6) || (this.global1.data[9] >= 20 && this.global1.data[15] != 6 && this.global1.data[11] == 1))
 						{
@@ -1196,7 +1196,7 @@ public class doneventscript : MonoBehaviour
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = " 民 族 主 义 是 过 去 的 遗 迹";
+							array[0] = " 民 族 主 义 是 过 去 的 遗 留";
 						}
 						if (this.global1.data[11] > 1)
 						{
@@ -1291,7 +1291,7 @@ public class doneventscript : MonoBehaviour
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = " 民 族 主 义 是 过 去 的 遗 迹";
+							array[0] = " 民 族 主 义 是 过 去 的 遗 留";
 						}
 						if (this.global1.data[11] > 1)
 						{
@@ -2423,115 +2423,115 @@ public class doneventscript : MonoBehaviour
 					else if (this.global1.number_event == 93)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Put him under house arrest";
-						array[1] = "Shoot the enemies of the people!";
-						array[2] = "Let him scream, this will not help him. All have already forgotten about him and will not remember him.";
+						array[0] = " 把 他 软 禁 起 来";
+						array[1] = " 射 杀 人 民 的 敌 人 ！";
+						array[2] = " 让 他 喊 叫 吧 ， 这 并 不 能 帮 助 他 ， 所 有 人 已 经 遗 忘 了 他 ， 而 且 不 会 想 起 他";
 					}
 					else if (this.global1.number_event == 94)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Cancel austerity mode";
-						array[1] = "Cancel gradually";
-						array[2] = "Fill the reserve";
+						array[0] = " 取 消 紧 缩 模 式";
+						array[1] = " 逐 渐 取 消";
+						array[2] = " 填 补 储 备 金";
 					}
 					else if (this.global1.number_event == 110)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "Disperse Hungarian meetings and do nothing more";
+						array[0] = " 除 了 驱 散 匈 牙 利 族 的 集 会 什 么 也 不 做";
 						if (this.global1.data[11] != 0)
 						{
-							array[1] = "Start a fight with any nationalism and for internationalism";
+							array[1] = " 为 了 国 际 主 义 开 始 与 所 有 民 族 主 义 作 斗 争";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "The Romanian path to communism is unshakable!";
+							array[1] = " 罗 马 尼 亚 的 共 产 主 义 道 路 是 不 可 动 摇 的 ！";
 						}
-						array[2] = "Revive the Magyar Autonomous Region";
-						array[3] = "Give Hungarians free exit to Hungary";
+						array[2] = " 恢 复 马 扎 尔 自 治 区";
+						array[3] = " 让 匈 牙 利 族 人 自 由 前 往 匈 牙 利";
 					}
 					else if (this.global1.number_event == 92)
 					{
 						this.kolvo_variant = 4;
 						if ((this.global1.data[14] >= 3 || this.global1.data[6] <= 600) && this.global1.data[11] != 0)
 						{
-							array[0] = "Condemn the decision of the Congress of the SED and support Moscow";
+							array[0] = " 谴 责 德 国 统 一 社 会 党 代 表 大 会 的 决 议 并 支 持 莫 斯 科";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "SED is not our enemy";
+							array[0] = " 德 国 统 一 社 会 党 不 是 我 们 的 敌 人";
 						}
 						if (this.global1.data[14] < 3 && this.global1.data[6] > 600)
 						{
-							array[1] = "Support the SED in the fight against Perestroika";
+							array[1] = " 支 持 德 国 统 一 社 会 党 对 抗 改 革";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "SED is not our allies";
+							array[1] = " 德 国 统 一 社 会 党 不 是 我 们 的 盟 友";
 						}
-						array[2] = "We do not care disassembly in the GDR.";
+						array[2] = " 我 们 不 关 心 民 主 德 国 的 分 歧";
 						if (this.global1.data[16] <= 11 && this.global1.data[0] != 20 && !this.IsYugoPlayer() && this.global1.data[0] != 10 && this.global1.data[0] != 12 && this.global1.data[0] != 18)
 						{
-							array[3] = "Support the Honecker's solution and start automation";
+							array[3] = " 支 持 昂 纳 克 的 方 法 并 开 始 经 济 自 动 化";
 						}
 						else if (this.global1.data[0] == 20 || this.global1.data[0] == 10 || this.global1.data[0] == 12 || this.global1.data[0] == 18)
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "We can't afford this";
+							array[3] = " 我 们 负 担 不 起";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "Automation is a relic of the communist past";
+							array[3] = " 自 动 化 是 共 产 主 义 过 去 的 遗 留";
 						}
 					}
 					else if (this.global1.number_event == 97)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "We will trust our people. Discard the displacement.";
-						array[1] = "Displace Milea, Vlad and Postelnicu.";
-						array[2] = "Displace Milea, Vlad and Postelnicu and " + this.global1.politics_name[this.global1.data[12]];
-						array[3] = "Under the threat of displacement we will force them to work harder.";
+						array[0] = " 我 们 会 信 任 我 们 的 人 民 ， 放 弃 撤 换";
+						array[1] = " 撤 换 米 列 亚 ， 弗 拉 德 和 波 斯 泰 尔 尼 库";
+						array[2] = " 撤 换 米 列 亚 ， 弗 拉 德 ， 波 斯 泰 尔 尼 库 和 " + this.global1.politics_name[this.global1.data[12]];
+						array[3] = " 在 免 职 的 威 胁 下 ， 我 们 将 迫 使 他 们 更 加 努 力 地 工 作";
 					}
 					else if (this.global1.number_event == 98)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "Ceausescu refuses to fight and flees the capital";
-						array[1] = "In a similar chaos, party members decide to save their own skin and make a bet on former communist Ion Iliescu";
-						array[2] = "Ceausescu decides to continue the struggle, ordering the army to suppress the insurrection by force";
+						array[0] = " 齐 奥 赛 斯 库 拒 绝 战 斗 并 逃 离 首 都";
+						array[1] = " 在 这 样 一 场 混 乱 中 ， 党 员 们 决 定 明 哲 保 身 ， 并 把 赌 注 押 在 前 共 产 主 义 者 伊 利 埃 斯 库 身 上";
+						array[2] = " 齐 奥 塞 斯 库 决 定 继 续 战 斗 ， 命 令 军 队 用 武 力 镇 压 暴 乱";
 						if (this.global1.data[56] <= 0)
 						{
-							array[3] = "Extremely leftist opposition in alliance with moderate reformers comes to light";
+							array[3] = " 极 左 反 对 党 与 温 和 派 的 结 盟 曝 光";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "There is no opposition inside party";
+							array[3] = " 党 内 没 有 反 对 意 见";
 						}
 					}
 					else if (this.global1.number_event == 101)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "This is a simple suicide and has nothing relevant with politics.";
+						array[0] = " 这 是 一 起 简 单 的 ， 与 政 治 毫 无 关 联 的 自 杀";
 						if (this.global1.data[9] >= 10)
 						{
-							array[1] = "We will use forces to stop rumors and to recognize it as suicide. ";
+							array[1] = " 我 们 会 强 制 制 止 流 言 并 将 其 认 定 为 自 杀 ";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We do not have the strength to climb into this business";
+							array[1] = " 我 们 没 有 力 量 干 预 此 事";
 						}
 						if (this.global1.data[9] >= 30)
 						{
-							array[2] = "This is clearly revenge, we need to completely finish off the supporters of the tyrant.";
+							array[2] = " 这 显 然 是 报 复 ， 我 们 必 须 彻 底 解 决 暴 君 的 支 持 者 们";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "We do not have the strength to climb into this business";
+							array[2] = " 我 们 没 有 力 量 干 预 此 事";
 						}
 					}
 					else if (this.global1.number_event == 105)
@@ -2541,8 +2541,8 @@ public class doneventscript : MonoBehaviour
 							this.global1.data[72] = 1;
 						}
 						this.kolvo_variant = 3;
-						array[0] = "Invite the commission, completely cancelling the development of nuclear weapons.";
-						array[1] = "Invite and try to hide the facts.";
+						array[0] = " 邀 请 检 查 团 ， 完 全 取 消 核 武 器 的 开 发";
+						array[1] = " 邀 请 检 查 团 并 尝 试 隐 瞒 事 实";
 						if (this.global1.data[0] == 10)
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
@@ -2553,51 +2553,51 @@ public class doneventscript : MonoBehaviour
 								array[0] = "";
 							}
 						}
-						array[2] = "Recognize the country as a nuclear power and withdraw from the NPT";
+						array[2] = " 承 认 我 国 是 拥 核 国 家 并 退 出 《 不 扩 散 核 武 器 条 约 》";
 					}
 					else if (this.global1.number_event == 111)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Forbid to publish materials about the Society in the party press and start its discrediting.";
+						array[0] = " 禁 止 在 党 报 上 发 表 有 关 该 社 团 的 材 料 ， 并 开 始 败 坏 它 的 声 誉";
 						if (this.global1.data[9] >= 25 && this.global1.data[8] >= 15)
 						{
-							array[1] = "Using the forces of the DS and party elements, introduce our people into the society and exclude pests.";
+							array[1] = " 利 用 国 安 部 门 和 党 的 力 量 ， 使 我 们 的 人 民 了 解 该 社 团 的 现 状 ， 并 把 害 虫 排 除 在 外";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We have no influence on the Society";
+							array[1] = " 我 们 对 社 团 没 有 影 响 力";
 						}
-						array[2] = "Arrest all members of society and close it.";
+						array[2] = " 逮 捕 所 有 该 社 团 成 员 并 把 它 关 闭";
 					}
 					else if (this.global1.number_event == 112)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Allow the Turks to leave for Turkey freely and stop the Bulgarianization, as ineffectual.";
+						array[0] = " 允 许 土 耳 其 人 自 由 前 往 土 耳 其 ， 并 停 止 推 行 无 用 的 保 加 利 亚 化";
 						if (this.global1.data[9] >= 30 && this.global1.data[8] >= 15)
 						{
-							array[1] = "Send Bulgarian special services, DS and military for stripping Turkish rallies.";
+							array[1] = " 派 遣 保 加 利 亚 特 勤 人 员 ， 国 家 安 全 局 和 军 队 去 驱 散 土 耳 其 人 的 集 会";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We have no influence on the Turkish minority";
+							array[1] = " 我 们 对 土 耳 其 少 数 民 族 没 有 影 响 力";
 						}
-						array[2] = "Arrange them a \"Great excursion\"";
+						array[2] = " 给 他 们 安 排 一 场 “ 大 遣 返 ”";
 					}
 					else if (this.global1.number_event == 113)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We will not make a provocation";
-						array[1] = "Declare the Macedonians as Bulgarians and introduce troops";
+						array[0] = " 我 们 不 会 制 造 事 端";
+						array[1] = " 宣 布 马 其 顿 人 为 保 加 利 亚 人 并 调 遣 军 队";
 						if (!this.global1.allcountries[15].Help)
 						{
-							array[2] = "Ask for an official permit for the introduction of troops.";
+							array[2] = " 申 请 一 份 正 式 的 派 遣 军 队 许 可";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Milošević - a totalitarian tyrant and a terrible bloodsucker!";
+							array[2] = " 米 洛 舍 维 奇 — — 一 个 极 权 主 义 暴 君 和 一 个 可 怕 的 嗜 血 者 ！";
 						}
 					}
 					else if (this.global1.number_event == 114)
@@ -2605,53 +2605,53 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 3;
 						if (!this.global1.allcountries[this.global1.data[0]].Vyshi || (this.global1.data[14] > 3 && !this.global1.allcountries[this.global1.data[0]].isOVD))
 						{
-							array[0] = "Accuse the West of trying to unleash a «velvet revolution» and urge them to disperse to their homes";
+							array[0] = " 指 责 西 方 试 图 发 动 一 场 “ 天 鹅 绒 革 命 ” ， 并 敦 促 他 们 回 家";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "We are the West";
+							array[0] = " 我 们 就 是 西 方 人";
 						}
-						array[1] = "Enter into negotiations with the moderate opposition";
+						array[1] = " 与 温 和 的 反 对 派 进 行 谈 判";
 						if (this.global1.data[9] >= 30)
 						{
-							array[2] = "Send security forces to clean up the square and arrest the instigators.";
+							array[2] = " 派 安 全 部 队 清 场 并 逮 捕 煽 动 者";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "We do not have an impact on the Ecoglasnost";
+							array[2] = " 我 们 没 办 法 影 响 经 济 开 放";
 						}
 					}
 					else if (this.global1.number_event == 116)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "Make the transition to a market economy in the shortest possible time";
+						array[0] = " 在 尽 可 能 短 的 时 间 内 向 市 场 经 济 过 渡";
 						if (this.global1.data[11] == 1)
 						{
-							array[1] = "Form the Economic Committee, which will head Naydenov";
+							array[1] = " 组 建 由 内 德 诺 夫 领 导 的 经 济 委 员 会";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
 							array[1] = "";
 						}
-						array[2] = "Everything works fine, not need in changing anything";
-						array[3] = "Introduce market elements into the economy";
+						array[2] = " 一 切 顺 利 ， 无 需 改 变";
+						array[3] = " 把 市 场 元 素 引 入 经 济";
 					}
 					else if (this.global1.number_event == 117)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Show Vanga with this prophecy on TV";
-						array[1] = "Ignore the message";
+						array[0] = " 让 万 加 在 电 视 上 展 示 这 个 预 言";
+						array[1] = " 忽 略 这 一 消 息";
 						if ((!this.global1.allcountries[this.global1.data[0]].isOVD && this.global1.data[14] >= 3) || this.global1.data[6] <= 400)
 						{
-							array[2] = "Verify Vanga in a return letter that the blue and white power is the eternal flag of Russia";
+							array[2] = " 在 回 信 中 向 万 加 核 实 蓝 白 力 量 是 俄 罗 斯 永 恒 的 旗 帜";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "We can not go under the West";
+							array[2] = " 我 们 不 能 服 从 西 方";
 						}
 					}
 					else if (this.global1.number_event == 119)
