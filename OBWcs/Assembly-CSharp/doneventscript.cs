@@ -1196,7 +1196,7 @@ public class doneventscript : MonoBehaviour
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = " 民 族 主 义 是 过 去 的 遗 留";
+							array[0] = " 民 族 主 义 是 过 去 的 遗 物";
 						}
 						if (this.global1.data[11] > 1)
 						{
@@ -1291,7 +1291,7 @@ public class doneventscript : MonoBehaviour
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = " 民 族 主 义 是 过 去 的 遗 留";
+							array[0] = " 民 族 主 义 是 过 去 的 遗 物";
 						}
 						if (this.global1.data[11] > 1)
 						{
@@ -2657,31 +2657,31 @@ public class doneventscript : MonoBehaviour
 					else if (this.global1.number_event == 119)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "To blackmail Mircho Spasov";
-						array[1] = "To blame Mircho Spasov for corruption";
-						array[2] = "Start anti-corruption cleaning";
+						array[0] = " 勒 索 米 尔 乔 · 斯 帕 索 夫";
+						array[1] = " 谴 责 米 尔 乔 · 斯 帕 索 夫 的 腐 败";
+						array[2] = " 开 始 反 腐 败 清 洗";
 					}
 					else if (this.global1.number_event == 120)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[9] >= 30 && this.global1.data[14] <= 2 && !this.global1.allcountries[this.global1.data[0]].Vyshi)
 						{
-							array[0] = "Eradicate Liberalism in the Party";
+							array[0] = " 根 除 党 内 自 由 主 义";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "We can not split the Party and undermine the stability in society";
+							array[0] = " 我 们 不 能 分 裂 党 以 及 破 坏 社 会 稳 定";
 						}
-						array[1] = "Let it be as it is";
+						array[1] = " 保 持 原 状";
 						if (this.global1.data[14] <= 2)
 						{
-							array[2] = "Start a soft liberalization of society with the help of this group";
+							array[2] = " 在 这 个 集 团 的 帮 助 下 开 始 温 和 的 社 会 自 由 化";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Nowhere to more liberalize! This will be a renunciation of socialism!";
+							array[2] = " 没 有 自 由 化 的 余 地 了 ！ 这 将 是 对 社 会 主 义 的 放 弃 ！";
 						}
 					}
 					else if (this.global1.number_event == 123)
@@ -2689,131 +2689,131 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 4;
 						if (this.global1.data[18] >= 21 || this.global1.data[14] >= 4)
 						{
-							array[0] = "Demolish the Mausoleum and rebury Dimitrov";
+							array[0] = " 拆 毁 陵 墓 ， 重 新 埋 葬 季 米 特 洛 夫";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "Demolition does not correspond to our party line";
+							array[0] = " 拆 毁 陵 墓 不 符 合 我 们 党 的 路 线";
 						}
-						array[1] = "Rebury Dimitrov, Mausoleum altered into a museum";
-						array[2] = "Let it be as it is";
+						array[1] = " 重 新 埋 葬 季 米 特 洛 夫 ， 陵 墓 改 建 成 博 物 馆";
+						array[2] = " 保 持 原 状";
 						if (this.global1.data[18] <= 18 || this.global1.data[14] <= 0)
 						{
-							array[3] = "Expand the Mausoleum specifically for the burial of future leaders";
+							array[3] = " 扩 大 陵 墓 规 模 ， 专 门 为 将 来 的 领 导 人 举 行 葬 礼";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "The expansion does not correspond to our party line";
+							array[3] = " 扩 大 规 模 不 符 合 我 们 党 的 路 线";
 						}
 					}
 					else if (this.global1.number_event == 125)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Our people do not need this!";
+						array[0] = " 我 们 的 人 民 不 需 要 这 个 ！";
 						if (this.global1.data[16] != 11)
 						{
-							array[1] = "Weaken the laws to attract individuals";
+							array[1] = " 弱 化 法 律 以 吸 引 个 人";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "No capitalist transformations!";
+							array[1] = " 不 向 资 本 主 义 转 型 ！";
 						}
 						if (this.global1.data[8] >= 80 || this.global1.data_old[8] >= 8)
 						{
-							array[2] = "We will build our own Vegas";
+							array[2] = " 我 们 会 建 立 我 们 自 己 的 维 加 斯";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Of course we do not have money for our own Vegas!";
+							array[2] = " 我 们 当 然 没 钱 建 造 我 们 自 己 的 维 加 斯 ！";
 						}
 					}
 					else if (this.global1.number_event == 126)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Go for discharge at our expense";
+						array[0] = " 我 们 出 钱 缓 和 关 系";
 						if (this.global1.data[11] != 1 && this.global1.data[14] > 0 && this.global1.data[31] < 700 && this.global1.data[14] < 4)
 						{
-							array[1] = "Mitigate domestic policy";
+							array[1] = " 缓 解 国 内 政 策";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
 							array[1] = "";
 						}
-						array[2] = "We can not trust America, we refuse";
+						array[2] = " 我 们 信 不 过 美 国 ， 我 们 拒 绝";
 					}
 					else if (this.global1.number_event == 118)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[18] != 21 && this.global1.data[18] != 22 && this.global1.data[11] != 3)
 						{
-							array[0] = "Start promoting the ideas of Bulgarian nationalism";
+							array[0] = " 开 始 宣 传 保 加 利 亚 民 族 主 义 思 想";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[0] = "Nationalism is a relic of the past";
+							array[0] = " 民 族 主 义 是 过 去 的 遗 物";
 						}
 						if (this.global1.data[9] >= 25)
 						{
-							array[1] = "Hush the incident and make sure that this does not happen again";
+							array[1] = " 掩 盖 事 件 并 确 保 这 不 会 再 次 发 生";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We can not hush up the incident";
+							array[1] = " 我 们 掩 盖 不 了 这 件 事";
 						}
-						array[2] = "Give a refutation and start a general fight against nationalism";
+						array[2] = " 怒 斥 民 族 主 义 ， 进 行 全 面 的 反 民 族 主 义 斗 争";
 					}
 					else if (this.global1.number_event == 121)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Refuse this idea";
+						array[0] = " 拒 绝 这 个 主 意";
 						if (this.global1.data[11] != 3 && !this.global1.allcountries[this.global1.data[0]].Vyshi)
 						{
-							array[1] = "Simply strengthen relations with fraternal peoples";
+							array[1] = " 只 加 强 与 兄 弟 国 家 的 关 系";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "No hints at the Balkan Federation!";
+							array[1] = " 还 没 有 出 现 巴 尔 干 联 邦 的 迹 象 ！";
 						}
 						if ((this.global1.data[8] >= 100 || this.global1.data_old[8] >= 100) && !this.global1.allcountries[this.global1.data[0]].Vyshi)
 						{
-							array[2] = "Implement the project";
+							array[2] = " 实 施 这 个 项 目";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Not enough money and influence";
+							array[2] = " 没 有 足 够 的 资 金 与 影 响 力";
 						}
 					}
 					else if (this.global1.number_event == 122)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Demolish the monument";
-						array[1] = "Refuse to demolish";
-						array[2] = "What are we doing? It is necessary to immediately stop the struggle with our past!";
+						array[0] = " 拆 除 纪 念 碑";
+						array[1] = " 拒 绝 拆 除";
+						array[2] = " 我 们 在 做 什 么 ？ 必 须 立 即 停 止 与 我 们 过 去 的 斗 争 ！";
 					}
 					else if (this.global1.number_event == 108)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "Open borders with all";
+						array[0] = " 彻 底 开 放 边 境";
 						if ((this.global1.allcountries[1].isOVD || this.global1.allcountries[2].isOVD || this.global1.allcountries[3].isOVD || this.global1.allcountries[4].isOVD || this.global1.allcountries[5].isOVD || this.global1.allcountries[6].isOVD) && this.global1.allcountries[this.global1.data[0]].isOVD && !this.global1.allcountries[7].isOVD && !this.global1.allcountries[7].isSEV)
 						{
-							array[1] = "Open only to military allies on the Eastern Bloc";
+							array[1] = " 只 对 东 方 集 团 的 军 事 盟 友 开 放";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
 							array[1] = "";
 						}
-						array[2] = "Open borders, but for a fee-";
-						array[3] = "Refuse and strengthen the borders ";
+						array[2] = " 开 放 边 境 , 但 要 收 费 … ";
+						array[3] = " 拒 绝 并 加 强 边 界 ";
 					}
 					else if (this.global1.number_event == 127)
 					{

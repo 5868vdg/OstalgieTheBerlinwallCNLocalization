@@ -50192,16 +50192,16 @@ public class Results_text : MonoBehaviour
 				}
 				else if (this.global1.number_event == 125)
 				{
-					this.fake_text2 = "Place your bets!";
+					this.fake_text2 = " 下 注 吧 ！";
 					if (this.global1.number_otvet == 1)
 					{
-						this.fake_text = "The whole country hopes that the party has a solution to the existing problem with the economy..";
+						this.fake_text = " 全 国 人 民 都 希 望 党 能 找 到 解 决 当 前 经 济 问 题 的 办 法 …";
 						ref int ptr = ref this.global1.data[1];
 						ptr -= this.global1.data[1] / 5;
 					}
 					else if (this.global1.number_otvet == 2)
 					{
-						this.fake_text = "The idea of legalizing gambling and attracting citizens to their organization was approved and the corresponding changes to the legislation were soon made. Private individuals at their own expense organized the casinos, in which citizens,who wanted easy money, were reaching from all over the country. Naturally, they only become poorer, and some cases of mental dependence on gambling have already been recorded. However, the gambling industry has proved to be quite profitable, although we get only a part of the income from it.";
+						this.fake_text = " 赌 博 合 法 化 并 吸 引 民 众 参 与 的 想 法 获 得 批 准 ， 相 应 的 法 律 法 规 也 很 快 进 行 了 修 改 。 私 人 自 费 开 设 赌 场 ， 全 国 各 地 渴 望 轻 松 赚 钱 的 民 众 蜂 拥 而 至 。 结 果 可 想 而 知 ， 他 们 只 会 变 得 更 加 贫 穷 ， 甚 至 已 经 出 现 了 一 些 赌 博 成 瘾 的 案 例 。 尽 管 我 们 只 能 从 中 获 得 一 部 分 收 入 ， 但 赌 博 业 已 被 证 明 利 润 丰 厚 。";
 						ref int ptr = ref this.global1.data[4];
 						ptr += 80;
 						ptr = ref this.global1.data[5];
