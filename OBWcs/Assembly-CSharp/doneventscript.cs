@@ -3165,98 +3165,98 @@ public class doneventscript : MonoBehaviour
 					else if (this.global1.number_event == 140)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Open the border for the transit of refugees to the West.";
-						array[1] = "Blackmailing the GDR with opening borders.";
-						array[2] = "There is no point in interfering with the situation.";
+						array[0] = " 开 放 边 界 ， 充 当 难 民 前 往 西 方 的 中 转 站";
+						array[1] = " 用 开 放 边 界 为 要 挟 敲 诈 民 主 德 国";
+						array[2] = " 没 有 必 要 干 涉 这 种 情 况";
 					}
 					else if (this.global1.number_event == 141)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Hold fair and free elections.";
-						array[1] = "Falsify election results.";
-						array[2] = "Attract civil servants to elections.";
+						array[0] = " 举 行 公 平 和 自 由 的 选 举";
+						array[1] = " 篡 改 选 举 结 果";
+						array[2] = " 吸 引 公 务 员 参 加 选 举";
 					}
 					else if (this.global1.number_event == 142)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Refuse.";
+						array[0] = " 拒 绝";
 						if (this.global1.data[31] >= 700 || (this.global1.data[56] == 1 && this.global1.data[14] <= 1))
 						{
-							array[1] = "Rebury Sikorski as a hero and accuse the West of his murder.";
+							array[1] = " 将 西 科 尔 斯 基 作 为 一 个 英 雄 重 新 埋 葬 ， 谴 责 西 方 国 家 对 他 的 谋 杀";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "Blaming the West does not make sense.";
+							array[1] = " 指 责 西 方 是 没 有 道 理 的";
 						}
 						if (this.global1.data[56] != 1 && this.global1.data[18] > 20)
 						{
-							array[2] = "Rebury Sikorski as a hero and accuse the USSR of Katyn massacre.";
+							array[2] = " 将 西 科 尔 斯 基 作 为 一 个 英 雄 重 新 埋 葬 ， 谴 责 苏 联 的 卡 廷 屠 杀";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Blaming the USSR does not make sense.";
+							array[2] = " 指 责 苏 联 是 没 有 道 理 的";
 						}
 					}
 					else if (this.global1.number_event == 143)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Allocate huge funds for the project.";
+						array[0] = " 在 该 项 目 上 投 入 巨 额 资 金";
 						if (this.global1.data[6] <= 400 || this.global1.allcountries[this.global1.data[0]].Vyshi)
 						{
-							array[1] = "Join the European Space Agency.";
+							array[1] = " 加 入 欧 洲 航 天 局";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We are not yet expected in Europe.";
+							array[1] = " 我 们 在 欧 洲 并 不 被 期 待";
 						}
-						array[2] = "We do not have the means to do this.";
+						array[2] = " 我 们 没 有 手 段 来 达 成 这 个 目 标";
 					}
 					else if (this.global1.number_event == 144)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We do not have money for this.";
-						array[1] = "Prometheus is the weapon of nationalists and fascists. Conduct a сampaign for internationalism.";
+						array[0] = " 我 们 没 有 资 金 来 做 这 个";
+						array[1] = " 普 罗 米 修 斯 是 民 族 主 义 者 和 法 西 斯 分 子 的 武 器 。 实 施 一 场 国 际 主 义 运 动";
 						if ((!this.global1.allcountries[7].isOVD || !this.global1.allcountries[this.global1.data[0]].isOVD) && (this.global1.data[18] <= 18 || this.global1.data[31] >= 700))
 						{
-							array[2] = "Revitalize the project.";
+							array[2] = " 复 兴 这 一 项 目";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Foreign influence is too strong.";
+							array[2] = " 外 国 影 响 力 太 强 了";
 						}
 					}
 					else if (this.global1.number_event == 145)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We agree if the opposition is ready to share responsibility with us.";
-						array[1] = "Ignore them. Again.";
+						array[0] = " 我 们 同 意 ， 如 果 反 对 派 准 备 和 我 们 一 起 承 担 责 任 的 话";
+						array[1] = " 再 一 次 忽 视 他 们";
 						if (this.global1.data[9] >= 50 || this.global1.data[56] == 1)
 						{
-							array[2] = "Close their mouths once and for all..";
+							array[2] = " 让 他 们 永 远 闭 嘴 …";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Our positions are too weak.";
+							array[2] = " 我 们 的 地 位 太 弱";
 						}
 					}
 					else if (this.global1.number_event == 146)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Do nothing.";
-						array[1] = "Stop his persecution, allow him to be printed.";
+						array[0] = " 什 么 都 不 做";
+						array[1] = " 停 止 对 他 的 迫 害 ， 允 许 他 出 版";
 						if (this.global1.data[11] != 3 && this.global1.data[14] <= 3 && (this.global1.data[31] >= 700 || this.global1.data[18] <= 19))
 						{
-							array[2] = "Introduce to the Central Committee and propose the post of Minister of Internal Affairs.";
+							array[2] = " 引 荐 到 中 央 委 员 会 ， 让 他 做 内 务 部 长";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "An Anti-Semite and a Stalinist in the Central Committee? Absolutely not!";
+							array[2] = " 一 个 反 犹 主 义 者 和 斯 大 林 主 义 者 在 中 央 ？ 绝 对 不 行 ！";
 						}
 					}
 					else if (this.global1.number_event == 162)
@@ -3264,7 +3264,7 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 5;
 						if (this.global1.data[9] >= 150 && this.global1.data[1] >= 700)
 						{
-							array[0] = "Send an army and state security against the opposition!";
+							array[0] = " 派 出 军 队 和 国 安 局 的 人 去 对 付 反 对 派 ！";
 						}
 						else
 						{
@@ -3273,7 +3273,7 @@ public class doneventscript : MonoBehaviour
 						}
 						if (this.global1.data[9] >= 250 && this.global1.data[3] >= 500)
 						{
-							array[1] = "Split the opposition!";
+							array[1] = " 分 化 反 对 派 ！";
 						}
 						else
 						{
@@ -3282,7 +3282,7 @@ public class doneventscript : MonoBehaviour
 						}
 						if (this.global1.data[1] >= 700 && this.global1.data[3] >= 300)
 						{
-							array[2] = "Appeal to the loyal people!";
+							array[2] = " 呼 吁 忠 诚 的 人 民 ！";
 						}
 						else
 						{
@@ -3291,21 +3291,21 @@ public class doneventscript : MonoBehaviour
 						}
 						if (this.global1.data[8] >= 250 && this.global1.data[5] <= 500)
 						{
-							array[3] = "We will bribe them!";
+							array[3] = " 我 们 会 贿 赂 他 们 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
 							array[3] = "";
 						}
-						array[4] = "They will not dare to overthrow me!";
+						array[4] = " 他 们 不 敢 推 翻 我 ！";
 					}
 					else if (this.global1.number_event == 163)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[9] >= 150 && this.global1.data[1] >= 700)
 						{
-							array[0] = "We will suppress protests by force!";
+							array[0] = " 我 们 将 用 武 力 镇 压 抗 议 ！";
 						}
 						else
 						{
@@ -3314,21 +3314,21 @@ public class doneventscript : MonoBehaviour
 						}
 						if (this.global1.data[8] >= 250 && this.global1.data[5] <= 700)
 						{
-							array[1] = "It seems that we will have to negotiate...";
+							array[1] = " 看 起 来 我 们 只 能 谈 判 …";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
 							array[1] = "";
 						}
-						array[2] = "They will not dare to overthrow me!";
+						array[2] = " 他 们 不 敢 推 翻 我 ！";
 					}
 					else if (this.global1.number_event == 164)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[9] >= 250)
 						{
-							array[0] = "We must act immediately! Dismiss the most suspicious and send them away! ";
+							array[0] = " 我 们 必 须 立 即 行 动 ！ 解 职 可 疑 人 员 并 让 他 们 走 人 ！";
 						}
 						else
 						{
@@ -3337,137 +3337,137 @@ public class doneventscript : MonoBehaviour
 						}
 						if (this.global1.data[8] >= 250 && this.global1.data[5] <= 800)
 						{
-							array[1] = "Perhaps we can still find a compromise?";
+							array[1] = " 也 许 我 们 仍 然 能 够 妥 协 ？";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
 							array[1] = "";
 						}
-						array[2] = "They will not dare to overthrow me!";
+						array[2] = " 他 们 不 敢 推 翻 我 ！";
 					}
 					else if (this.global1.number_event == 147)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "It's about time! Sign the package!";
-						array[1] = "Actually, if we reconcider our way one more time, don't you think that we are doing something wrong...? Reject the package.";
-						array[2] = "It's not time yet, we have to do away with a couple of things, and the package will wait. About a year, maybe two...";
+						array[0] = " 是 时 候 了 ！ 签 署 该 计 划 ！";
+						array[1] = " 事 实 上 ， 如 果 我 们 再 重 新 考 虑 一 下 ， 你 不 认 为 我 们 做 错 了 什 么 吗 … ？ 拒 绝 该 计 划";
+						array[2] = " 时 候 未 到 ， 我 们 还 有 好 多 事 情 要 处 理 ， 计 划 可 以 放 一 放 。 大 概 一 年 ， 也 许 两 年 …";
 					}
 					else if (this.global1.number_event == 148)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Let's hold a landmark meeting and raise a toast to the new friends!";
-						array[1] = "It seems to me that we should not go for such a sycophancy. If it will be necessary, they themselves will offer the opening of the borders.";
-						array[2] = "I have a better idea! Let's organize a subsidized program for the expulsion of dissatisfied and dissidents to Europe.";
+						array[0] = " 让 我 们 举 行 里 程 碑 般 的 会 面 ， 并 为 我 们 的 新 朋 友 干 杯 ！";
+						array[1] = " 在 我 看 来 ， 我 们 不 应 该 这 么 奉 承 他 们 ， 真 有 必 要 的 话 ， 他 们 自 己 会 开 放 边 境 的";
+						array[2] = " 我 有 个 更 好 的 主 意 ！ 让 我 们 组 织 一 个 资 助 计 划 ， 把 不 满 者 和 持 不 同 政 见 者 驱 逐 到 欧 洲 去";
 					}
 					else if (this.global1.number_event == 149)
 					{
 						this.kolvo_variant = 5;
-						array[0] = "Reforms are impossible without true democracy! We agree. Nersh will lead us!";
-						array[1] = "Kadar did not build our system all his life for us to break it so easily!";
+						array[0] = " 没 有 真 正 的 民 主， 就 不 可 能 有 改 革 ！ 我 们 同 意 。 涅 尔 什 会 领 导 我 们 ！";
+						array[1] = " 卡 达 尔 穷 尽 一 生 建 立 的 体 系 不 是 为 了 让 我 们 如 此 轻 率 的 毁 掉 的 ！";
 						if (this.global1.data[59] != 1 && this.global1.data[9] >= 60)
 						{
-							array[2] = "It's time to do something with these insolent. They allow themselves too much!";
+							array[2] = " 是 时 候 对 那 些 无 礼 之 徒 采 取 行 动 了 。 他 们 太 过 于 放 肆 了 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "It requires at least 6 agent networks";
+							array[2] = " 需 要 至 少8 点 特 工 网 络";
 						}
-						array[3] = "Reforms must continue! We agree! However, the post must take a compromise candidate. Nemeth.";
-						array[4] = "We agree. Pozsgay will bring us closer to the USSR!";
+						array[3] = " 改 革 必 须 继 续 ！ 我 们 同 意 ！ 然 而 ， 职 位 必 须 是 一 个 妥 协 的 候 选 人 ， 内 梅 特";
+						array[4] = " 我 们 同 意 。 波 日 高 伊 会 让 我 们 向 苏 联 靠 拢";
 					}
 					else if (this.global1.number_event == 150)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] >= 2)
 						{
-							array[0] = "We accept social-democracy and completely agree with the opposition.";
+							array[0] = " 我 们 接 受 社 会 民 主 主 义 并 完 全 同 意 反 对 派";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "Are you serious about social-democracy? We are communists!";
+							array[0] = " 社 会 民 主 主 义 ？ 你 是 认 真 的 吗 ？ 我 们 可 是 共 产 主 义 者 ！";
 						}
-						array[1] = "We ignore the opposition and maintain socialism as the party’s ideology.";
-						array[2] = "We sabotage the negotiations";
+						array[1] = " 我 们 无 视 反 对 派 ， 并 维 持 党 的 社 会 主 义 意 识 形 态";
+						array[2] = " 我 们 破 坏 谈 判";
 					}
 					else if (this.global1.number_event == 151)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] != 1)
 						{
-							array[0] = "We rehabilitate everyone and admit the bloody crimes of our past!";
+							array[0] = " 我 们 给 所 有 人 平 反 并 承 认 我 们 过 去 所 犯 下 的 血 腥 罪 行 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "There was no bloody past, it is all Western propaganda.";
+							array[0] = " 没 有 血 腥 的 过 去 ， 都 只 是 西 方 的 宣 传";
 						}
-						array[1] = "Imre Nagy is a great man! Him and only him we will bury.";
+						array[1] = " 纳 吉 · 伊 姆 雷 是 个 伟 人 ！ 我 们 会 且 只 会 埋 葬 他";
 						if (this.global1.data[11] != 3)
 						{
-							array[2] = "Why do we praise this traitor? Let him lie where he lies. ";
+							array[2] = " 我 们 为 什 么 要 褒 扬 这 个 叛 徒 ？ 就 让 他 还 躺 在 他 现 在 在 的 地 方 吧";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "We have to admit our bloody past.";
+							array[2] = " 我 们 必 须 要 承 认 我 们 血 腥 的 过 去";
 						}
 					}
 					else if (this.global1.number_event == 152)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Bury Kadar with the honors he deserves.";
-						array[1] = "We will bury Kadar as a simple citizen.";
-						array[2] = "Kadar will be buried as it should be for the Great Ruler. We will do everything so that our descendants will remember its greatness.";
+						array[0] = " 以 卡 达 尔 应 得 的 荣 誉 埋 葬 他";
+						array[1] = " 我 们 会 将 卡 达 尔 作 为 一 名 普 通 公 民 埋 葬";
+						array[2] = " 卡 达 尔 会 按 照 伟 大 领 袖 的 规 格 厚 葬 。 我 们 会 做 所 有 事 情 以 让 我 们 的 后 代 缅 怀 他 的 伟 大";
 					}
 					else if (this.global1.number_event == 153)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "We will continue the traditions of Kadar.";
+						array[0] = " 我 们 将 继 续 卡 达 尔 的 传 统";
 						if (this.global1.data[56] == 2 || this.global1.data[56] == 4)
 						{
-							array[1] = "Perhaps we should think about the nationalists. They will be useful for the consolidation of society.";
+							array[1] = " 也 许 我 们 应 该 考 虑 民 族 主 义 者 。 它 们 将 有 助 于 巩 固 社 会";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "Rehabilitate the right-wing traitors?! Think again!";
+							array[1] = " 给 右 翼 叛 徒 平 反 ？ ！  换 个 主 意 吧 ！";
 						}
 						if (this.global1.data[56] == 1 || this.global1.data[56] == 4)
 						{
-							array[2] = "The Stalinists will help unite the party.";
+							array[2] = " 斯 大 林 主 义 者 将 帮 助 团 结 党 内";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Rehabilitate the bloody murderers?! Are you nuts?!";
+							array[2] = " 给 血 腥 的 谋 杀 者 平 反 ？ 你 疯 了 吗 ？ ！";
 						}
 						if (this.global1.data[56] == 4)
 						{
-							array[3] = "We rehabilitate everyone";
+							array[3] = " 我 们 给 所 有 人 平 反";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "We cannot rehabilitate everyone at once. Stick to the general line of the Party.";
+							array[3] = " 我 们 不 能 一 下 子 使 每 个 人 都 恢 复 名 誉 。 坚 持 党 的 总 路 线";
 						}
 					}
 					else if (this.global1.number_event == 154)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We can not allow such aspersion against our national hero!";
+						array[0] = " 我 们 不 能 允 许 这 样 诽 谤 我 们 的 民 族 英 雄 ！";
 						if (this.global1.data[57] != 1)
 						{
-							array[1] = "Who would have thought ... Post it immidiately!";
+							array[1] = " 谁 能 想 到 呢 … 立 即 公 布 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We did not made him a Hero to publish the truth about him!";
+							array[1] = " 我 们 并 没 有 让 他 成 为 一 个 英 雄 以 便 公 布 关 于 他 的 真 相 ！";
 						}
-						array[2] = "Our genetics is not developed enough to reanimate him and learn the truth.";
+						array[2] = " 我 们 的 遗 传 学 还 没 有 发 展 到 能 使 他 复 活 并 告 诉 我 们 真 相";
 						global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
 					}
 					else if (this.global1.number_event == 155)
@@ -3475,15 +3475,15 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 3;
 						if (this.global1.data[18] < 21 && this.global1.data[14] < 4 && this.global1.data[11] != 1)
 						{
-							array[0] = "Let's accept Eurocommunism! Marxism-Leninism and so does not go in our country.";
+							array[0] = " 让 我 们 接 受 欧 洲 共 产 主 义 ！ 马 克 思 列 宁 主 义 在 我 国 是 行 不 通 的";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
 							array[0] = "";
 						}
-						array[1] = "We invite them all back to their homeland! It is not good for Hungarian citizens to be in exile.";
-						array[2] = "Let them sit where they sit. We already have all the seats occupied.";
+						array[1] = " 我 们 邀 请 他 们 所 有 人 回 到 他 们 的 祖 国 ！ 让 匈 牙 利 公 民 流 亡 是 不 好 的";
+						array[2] = " 让 他 们 呆 在 该 呆 的 地 方 ， 我 们 这 没 位 子 留 给 他 们";
 					}
 					else if (this.global1.number_event == 156)
 					{
