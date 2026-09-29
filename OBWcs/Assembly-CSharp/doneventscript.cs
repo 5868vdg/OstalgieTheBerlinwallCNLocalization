@@ -3488,148 +3488,148 @@ public class doneventscript : MonoBehaviour
 					else if (this.global1.number_event == 156)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "Let's revive it as it was.";
-						array[1] = "We will revive and introduce new, improved rules, borrow them a little from Eurovision, giving even more freedom.";
-						array[2] = "Let's join European standards and Eurovision.";
-						array[3] = "Ignore the proposal.";
+						array[0] = " 按 原 样 恢 复 会 演";
+						array[1] = " 我 们 将 复 兴 会 演 并 引 入 新 的 、 改 进 的 规 则 ， 向 欧 洲 歌 唱 大 赛 借 鉴 一 点 ， 给 予 更 多 的 自 由";
+						array[2] = " 采 用 欧 洲 标 准 加 入 欧 洲 电 视 网 ， 参 加 他 们 的 歌 唱 大 赛";
+						array[3] = " 忽 略 提 案";
 					}
 					else if (this.global1.number_event == 157)
 					{
 						this.kolvo_variant = 4;
-						array[0] = "We agree with their proposal, now it is the most reasonable way out.";
-						array[1] = "Let's not kneel before the blackmailers! We can do it on our own!";
+						array[0] = " 我 们 同 意 他 们 的 提 案 ， 这 是 现 在 最 合 理 的 出 路";
+						array[1] = " 不 要 向 这 些 恐 吓 者 屈 服 ！ 我 们 自 己 做 得 到 ！";
 						if (this.global1.data[11] <= 2)
 						{
-							array[2] = "We will adopt the experience of Romania and introduce a partial savings mode.";
+							array[2] = " 我 们 会 采 取 罗 马 尼 亚 的 经 验 并 引 入 部 分 储 蓄 模 式";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "We will not starve our own nation!";
+							array[2] = " 我 们 不 会 让 自 己 的 国 家 挨 饿 ！";
 						}
 						if (this.global1.data[11] <= 1)
 						{
-							array[3] = "As Lenin tought us: refuse to pay!";
+							array[3] = " 就 像 列 宁 教 我 们 的 那 样 ， 拒 绝 付 款 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "We must respect the international business";
+							array[3] = " 我 们 必 须 尊 重 国 际 商 业 活 动";
 						}
 					}
 					else if (this.global1.number_event == 158)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Let Grosz stay";
-						array[1] = "National-Communism will rescue Hungary! Borbay Sandor is our choice!";
-						array[2] = "Tamas Kraus is a real communist! He will lead us to victory!";
+						array[0] = " 保 留 格 罗 斯";
+						array[1] = " 民 族 共 产 主 义 将 拯 救 匈 牙 利 ！ 我 们 选 择 博 尔 贝 伊 · 山 多 尔 ！";
+						array[2] = " 克 劳 斯 · 陶 马 什 是 个 真 正 的 共 产 主 义 者 ！ 他 将 带 领 我 们 走 向 胜 利 ！";
 					}
 					else if (this.global1.number_event == 159)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[9] >= 80)
 						{
-							array[0] = "We will help with everything we can! Volunteers, special services, nothing is a pity for the benefit of the our people!";
+							array[0] = " 我 们 要 竭 尽 所 能 帮 助 ！ 志 愿 军 、 特 工 ， 为 了 我 们 人 民 的 福 祉 ， 不 惜 一 切 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
 							array[0] = "";
 						}
-						array[1] = "Our neighbors will recognize this as a betrayal... Only secret assistance.";
-						array[2] = "We have no resources. Leave your nationalistic thoughts.";
+						array[1] = " 我 们 的 邻 居 会 认 为 这 是 背 叛 … 秘 密 援 助 就 好";
+						array[2] = " 我 们 资 源 有 限 。 收 起 你 大 胆 的 民 族 主 义 想 法";
 					}
 					else if (this.global1.number_event == 160)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Maidan is a great local tradition! Let's arrange this and draw Transcarpathia to our side. ";
-						array[1] = "This is a silly idea. We already have enough problems.";
-						array[2] = "We cannot recognize ourselves as Rusyns for we are Hungarians!";
+						array[0] = " 广 场 运 动 是 当 地 的 优 良 传 统 ！ 让 我 们 安 排 一 下 ， 并 将 外 喀 尔 巴 阡 划 入 我 们 领 土";
+						array[1] = " 这 是 个 馊 主 意 ， 我 们 的 问 题 够 多 了";
+						array[2] = " 我 们 可 不 是 卢 森 尼 亚 人 ， 我 们 是 匈 牙 利 人 ！";
 						global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
 					}
 					else if (this.global1.number_event == 161)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Let us return to the monarchy! Restore the glorious traditions of the Hungarian people!";
-						array[1] = "Joking aside, let everything remain as it was. ";
-						array[2] = "All these statements are anti-revolutionary and should be banned!";
+						array[0] = " 回 到 君 主 制 ！ 恢 复 匈 牙 利 人 民 的 光 荣 传 统 ！";
+						array[1] = " 玩 笑 罢 了 ， 一 切 照 旧";
+						array[2] = " 所 有 这 些 言 论 都 是 反 革 命 的 ， 应 该 被 禁 止 ！";
 					}
 					else if (this.global1.number_event == 165)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Let's amnesty and stop such harsh persecution of our citizens.";
-						array[1] = "We will adhere to our policy regarding prisoners and release them, but we will not ease the pressure.";
-						array[2] = "We will not let out criminals, but it’s time to stop putting pressure on our citizens. Socialism must be humane.";
+						array[0] = " 让 我 们 大 赦 并 停 止 对 我 们 公 民 的 这 种 残 酷 迫 害";
+						array[1] = " 我 们 将 坚 持 我 们 的 政 策 并 释 放 囚 犯 ， 但 不 会 减 轻 压 力";
+						array[2] = " 我 们 不 会 释 放 罪 犯 ， 但 现 在 是 时 候 停 止 对 我 们 的 公 民 施 加 压 力 了 。 社 会 主 义 必 须 是 人 道 的";
 					}
 					else if (this.global1.number_event == 166)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We openly announce that anyone can help the Albanians and open the border for volunteers.";
-						array[1] = "Increase secret assistance to our brothers abroad.";
-						array[2] = "Terrorism is the last century. With Yugoslavia need to negotiate in a civilized manner. ";
+						array[0] = " 我 们 公 开 宣 布 ， 任 何 人 都 可 以 帮 助 阿 尔 巴 尼 亚 人 ， 为 志 愿 者 打 开 边 境";
+						array[1] = " 增 加 对 国 外 同 胞 的 秘 密 援 助";
+						array[2] = " 恐 怖 主 义 是 上 个 世 纪 的 事 。 与 南 斯 拉 夫 的 谈 判 需 要 以 一 种 文 明 的 方 式";
 					}
 					else if (this.global1.number_event == 167)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] <= 2)
 						{
-							array[0] = "We will tighten the screws even more! Set up surveillance of everything that moves! ";
+							array[0] = " 我 们 会 更 加 加 强 控 制 ！ 对 所 有 会 动 的 东 西 设 置 监 视 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "We will not go against the people!";
+							array[0] = " 我 们 不 会 反 对 人 民 ！";
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[1] = "We will not suffer the same fate. It's alright, we will not change anything. ";
+							array[1] = " 我 们 不 会 遭 受 同 样 的 命 运 。 没 关 系 ， 我 们 不 会 改 变 任 何 事 ";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "Hoxha bequeathed us a new world!";
+							array[1] = " 霍 查 遗 留 给 我 们 一 个 新 的 世 界 ！";
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[2] = "We need to give people at least some leverage to interact with the authorities. Soften the screws and take a cue from the USSR! ";
+							array[2] = " 我 们 至 少 需 要 给 人 们 一 些 与 当 局 互 动 的 筹 码 。 拧 松 螺 丝 ， 效 仿 苏 联 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Hoxha bequeathed us a new world!";
+							array[2] = " 霍 查 遗 留 给 我 们 一 个 新 的 世 界 ！";
 						}
 					}
 					else if (this.global1.number_event == 168)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We will sign a trade agreement and strengthen our friendship! ";
-						array[1] = "Enver Hoxha didn't want to be humiliated before anyone. Let things go on as usual.";
+						array[0] = " 我 们 将 签 署 贸 易 协 定 ， 加 强 我 们 的 友 谊 ！ ";
+						array[1] = " 恩 维 尔 · 霍 查 不 想 在 任 何 人 面 前 被 羞 辱 。 一 切 如 常";
 						if (this.global1.allcountries[7].isSEV)
 						{
-							array[2] = "Still, one has to choose from two evils, and social-imperialism is clearly inferior to Western imperialism in rapaciousness, and therefore the CMEA countries are our choice. Let's try to conclude contracts with all of them.";
+							array[2] = " 我 们 还 是 必 须 两 害 相 权 取 其 轻 ， 而 社 会 帝 国 主 义 显 然 没 有 西 方 帝 国 主 义 那 么 贪 婪 ， 因 此 ， 我 们 选 择 经 互 会 国 家 。 让 我 们 试 着 和 他 们 所 有 人 签 订 合 同";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Old CMEA has long collapsed";
+							array[2] = " 旧 经 济 互 助 委 员 会 已 经 崩 溃 很 久 了";
 						}
 					}
 					else if (this.global1.number_event == 169)
 					{
 						this.kolvo_variant = 5;
-						array[0] = "We need to stop the persecution of the church!";
+						array[0] = " 我 们 需 要 停 止 对 教 会 的 迫 害 ！";
 						if (this.global1.data[9] >= 70)
 						{
-							array[1] = "We will conclude an agreement with Muslim priests.";
+							array[1] = " 我 们 将 与 伊 玛 目 达 成 协 议";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "Intelligence agencies are too weak";
+							array[1] = " 情 报 机 构 太 虚 弱 了";
 						}
-						array[2] = "Freedom of conscience! Religion should be available to everyone!";
-						array[3] = "Let's start Perestroika on the Iranian model.";
-						array[4] = "Obsessive ideas do not lead to good. Let's leave it as it is.";
+						array[2] = " 信 仰 自 由 ！ 每 个 人 都 应 该 有 宗 教 信 仰 ！";
+						array[3] = " 让 我 们 按 照 伊 朗 模 式 进 行 改 革";
+						array[4] = " 迷 信 不 会 带 来 好 结 果 。 就 这 样 吧";
 					}
 					else if (this.global1.number_event == 170)
 					{
