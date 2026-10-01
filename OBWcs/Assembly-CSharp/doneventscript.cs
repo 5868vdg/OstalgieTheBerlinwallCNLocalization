@@ -3634,46 +3634,46 @@ public class doneventscript : MonoBehaviour
 					else if (this.global1.number_event == 170)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Ramiz Alia will be accused of Titoism at the Plenum, expelled from the party and shot. Clear the PLA from revisionists and traitors by fire and sword!";
-						array[1] = "At the Plenum, criticize 1 secretary, and under the pressure of irrefutable facts of his failures, he will resign. ";
-						array[2] = "We will revolt!";
+						array[0] = " 拉 米 兹 · 阿 利 雅 将 在 全 体 会 议 上 被 指 控 为 铁 托 主 义 ， 被 开 除 党 籍 并 被 枪 毙 。 用 火 与 剑 把 修 正 主 义 者 和 叛 徒 从 阿 尔 巴 尼 亚 劳 动 党 清 除 ！";
+						array[1] = " 在 全 体 会 议 上 ， 批 评 第 一 书 记 ， 在 无 可 辩 驳 的 失 败 事 实 的 压 力 下 ， 他 将 辞 职";
+						array[2] = " 我 们 将 会 起 义 ！";
 					}
 					else if (this.global1.number_event == 171)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We will let her in and let her move freely around the country.";
-						array[1] = "Let in, but limit movement and set up surveillance.";
-						array[2] = "Servants of American imperialism wouldn't set foot on our land!";
+						array[0] = " 我 们 会 让 她 进 来 并 让 她 在 全 国 自 由 活 动";
+						array[1] = " 让 她 进 来 ， 但 要 限 制 她 的 行 动 并 进 行 监 视";
+						array[2] = " 美 帝 国 主 义 的 仆 从 不 会 踏 上 我 们 的 土 地 ！";
 					}
 					else if (this.global1.number_event == 172)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] <= 2)
 						{
-							array[0] = "No and no again! PLA - the only representative of the people! ";
+							array[0] = " 不 ， 再 说 一 次 ， 不 ！ 阿 尔 巴 尼 亚 劳 动 党 － 是 人 民 的 唯 一 代 表 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "Workers can express their opinion as they wish.";
+							array[0] = " 工 人 可 以 自 由 表 达 自 己 的 想 法";
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[1] = "Let's create a party with our people at the head.";
+							array[1] = " 让 我 们 成 立 一 个 政 党 ， 并 让 我 们 的 人 做 党 首";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "Give the enemies of the people a leverage over us?! No way!";
+							array[1] = " 给 人 民 的 敌 人 一 个 制 衡 我 们 的 手 段 ？ ！ 没 门 ！";
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[2] = "Give the people what they want.";
+							array[2] = " 给 人 民 他 们 想 要 的";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Give the enemies of the people a leverage over us?! No way!";
+							array[2] = " 给 人 民 的 敌 人 一 个 制 衡 我 们 的 手 段 ？ ！ 没 门 ！";
 						}
 					}
 					else if (this.global1.number_event == 173)
@@ -3681,22 +3681,22 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] != 0)
 						{
-							array[0] = "Restore relations with the USSR. ";
+							array[0] = " 重 建 与 苏 联 的 关 系";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "With the Social-Imperialists?! No way!";
+							array[0] = " 和 社 会 帝 国 主 义 者 ？ 没 门 ！";
 						}
-						array[1] = "Where is your self-esteem? No and no again!";
+						array[1] = " 你 的 自 尊 在 哪 里 ？ 绝 无 可 能 ！";
 						if (this.global1.data[11] == 3 || this.global1.data[14] > 3 || this.global1.allcountries[this.global1.data[0]].Vyshi)
 						{
-							array[2] = "Social-imperialism in the blood of the Bolsheviks! Even ordinary imperialism is not so bloody. We will go for rapprochement with the USA! ";
+							array[2] = " 社 会 帝 国 主 义 就 在 布 尔 什 维 克 的 血 液 中 流 淌 ！ 哪 怕 是 普 通 的 帝 国 主 义 都 不 会 那 么 血 腥 。 我 们 要 和 美 国 和 睦 相 处 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "That's with anyone, but not with the USA!";
+							array[2] = " 谁 都 可 以 ， 但 不 能 是 美 国 ！";
 						}
 					}
 					else if (this.global1.number_event == 174)
@@ -3704,25 +3704,25 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 6;
 						if (this.global1.data[11] <= 2)
 						{
-							array[0] = "Do they want action? So let them get it. Connect me with the headquarters. ";
+							array[0] = " 他 们 想 要 行 动 ？ 那 就 给 他 们 。 给 我 接 通 总 部";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "No army against the people!";
+							array[0] = " 没 有 反 对 人 民 的 军 队 ！";
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[1] = "The ability to create artels and cooperatives will satisfy their appetites. But we will have to expand the independence of enterprises to interact with them.";
+							array[1] = " 创 立 合 作 社 和 企 业 的 能 力 会 满 足 他 们 的 胃 口 ， 但 我 们 必 须 扩 大 企 业 的 独 立 性 来 影 响 他 们";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "We will not become slaves of capital!";
+							array[1] = " 我 们 不 会 成 为 资 本 的 奴 隶 ！";
 						}
 						if (this.global1.data[11] != 0 || this.global1.data[16] < 12)
 						{
-							array[2] = "Enterprises really need autonomy. Let them plan on the ground.";
+							array[2] = " 企 业 确 实 需 要 独 立 性 ， 我 们 应 当 给 予 其 在 本 地 制 定 计 划 的 机 会";
 						}
 						else
 						{
@@ -3731,60 +3731,60 @@ public class doneventscript : MonoBehaviour
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[3] = "Their words make sense. We will give them the opportunity to forge their future. Market future!";
+							array[3] = " 他 们 的 话 有 道 理 ， 我 们 将 给 他 们 创 造 未 来 的 机 会 。 一 个 市 场 化 的 未 来 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-							array[3] = "We will not become slaves of capital!";
+							array[3] = " 我 们 不 会 成 为 资 本 的 奴 隶 ！";
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[4] = "A strike is a worker’s right. Let them strike. We are not revisionists, after all. ";
+							array[4] = " 罢 工 是 工 人 的 权 利 。 让 他 们 罢 工 吧 。 毕 竟 我 们 不 是 修 正 主 义 者";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[4]);
-							array[4] = "They don't know what they are doing!";
+							array[4] = " 他 们 不 知 道 他 们 在 做 什 么 ！";
 						}
 						if (this.global1.allcountries[7].isSEV && (this.global1.allcountries[7].Torg || this.global1.allcountries[2].Gosstroy == 2 || this.global1.allcountries[3].Gosstroy == 2 || this.global1.allcountries[4].Gosstroy == 2 || this.global1.allcountries[5].Gosstroy == 2 || this.global1.allcountries[6].Gosstroy == 2))
 						{
-							array[5] = "Abolish bourgeois excesses by starting imports from CMEA countries.";
+							array[5] = " 废 除 资 产 阶 级 的 挥 霍 ， 从 经 互 会 国 家 开 始 进 口 。";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[5]);
-							array[5] = "We do not have the capacity to buy up cheap electronics en masse from CMEA countries";
+							array[5] = " 我 们 没 有 能 力 大 规 模 从 经 互 会 国 家 购 买 廉 价 电 子 产 品";
 						}
 					}
 					else if (this.global1.number_event == 175)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "We have one goal, even if we see it differently. Different views - a pledge of democracy.";
-						array[1] = "Carefully remove from the game only the largest members of their grouping and replace them with more democratic ones.";
-						array[2] = "It's time for purges of the enemies of the people.";
+						array[0] = " 我 们 有 同 一 个 目 标 ， 即 使 我 们 的 看 法 不 同 。 不 同 的 观 点 — 民 主 的 保 证";
+						array[1] = " 只 小 心 地 从 政 局 中 移 除 他 们 的 小 组 中 大 多 数 成 员 ， 并 用 更 民 主 的 人 替 代 他 们";
+						array[2] = " 是 时 候 清 洗 人 民 的 敌 人 了";
 					}
 					else if (this.global1.number_event == 176)
 					{
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] <= 2)
 						{
-							array[0] = "Let's leave everything as it is, and let Sigurimi take care of these lovers to copy everything from abroad. ";
+							array[0] = " 让 我 们 让 一 切 保 持 原 样 ， 并 让 “ 西 古 里 米 ” 留 意 那 些 喜 欢 从 国 外 照 抄 所 有 东 西 的 人";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "This is what the people want";
+							array[0] = " 这 是 人 民 想 要 的";
 						}
-						array[1] = "Introduce the post of the President and put on it the current First Secretary!";
+						array[1] = " 引 入 总 统 职 位 ， 并 让 现 任 第 一 书 记 担 任 总 统 ！";
 						if (this.global1.data[11] != 0)
 						{
-							array[2] = "We will hold free President elections, but we will support the member of the PLA! ";
+							array[2] = " 我 们 将 举 行 自 由 的 总 统 选 举 ， 但 我 们 将 支 持 阿 尔 巴 尼 亚 劳 动 党 的 成 员 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "We will not betray the ideals of Hoxha!";
+							array[2] = " 我 们 不 会 背 叛 霍 查 的 理 想 ！";
 						}
 					}
 					else if (this.global1.number_event == 177)
@@ -3792,30 +3792,30 @@ public class doneventscript : MonoBehaviour
 						this.kolvo_variant = 3;
 						if (this.global1.data[11] <= 2)
 						{
-							array[0] = "They are barbarians. For them, there is already a working system of representation! Disperse them!";
+							array[0] = " 他 们 是 野 蛮 人 。 对 于 他 们 来 说 ， 已 经 有 了 一 个 有 效 的 代 表 制 度 ！ 驱 散 他 们 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-							array[0] = "No army against the people!";
+							array[0] = " 没 有 反 对 人 民 的 军 队 ！";
 						}
 						if (this.global1.data[11] == 2)
 						{
-							array[1] = "Our First Secretary is a protege of the bureaucracy. Replace him with Fatos Nano - the people's choice! ";
+							array[1] = " 我 们 的 第 一 书 记 是 官 僚 主 义 的 门 徒 。 用 法 托 斯 · 纳 诺 替 代 他 — 人 民 的 选 择 ！ ";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-							array[1] = "Everything is going according to plan...";
+							array[1] = " 一 切 按 计 划 进 行 …";
 						}
 						if (this.global1.data[11] != 0)
 						{
-							array[2] = "Reforms must be deepened! More freedoms!";
+							array[2] = " 必 须 深 化 改 革 ！ 更 多 的 自 由 ！";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "No, and that's final!";
+							array[2] = " 不 ， 那 就 是 最 后 一 次 了 ！";
 						}
 					}
 					else if (this.global1.number_event == 178)
