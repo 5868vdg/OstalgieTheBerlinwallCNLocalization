@@ -3821,46 +3821,46 @@ public class doneventscript : MonoBehaviour
 					else if (this.global1.number_event == 178)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Our traditions will serve us! Adopt a new ideology.";
-						array[1] = "Abandon Hoxhaism?! You are revisionists!";
+						array[0] = " 我 们 的 传 统 将 为 我 们 服 务 ！ 采 用 新 的 思 想";
+						array[1] = " 放 弃 霍 查 主 义 ？ ！ 你 是 修 正 主 义 者 ！";
 						if (this.global1.data[56] >= 100)
 						{
-							array[2] = "It is better to do so that we will be headed by the clergy.";
+							array[2] = " 我 们 最 好 由 神 职 人 员 领 导";
 						}
 						else
 						{
 							global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-							array[2] = "Clergy in rulers? No!";
+							array[2] = " 神 职 人 员 当 统 治 者 ？ 不 ！";
 						}
 					}
 					else if (this.global1.number_event == 179)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "It is their right.";
-						array[1] = "Call the People's Militia and disperse them.";
-						array[2] = "Let's start a gradual revision of the Prague Spring.";
+						array[0] = " 这 是 他 们 的 权 利";
+						array[1] = " 呼 唤 人 民 民 兵 驱 散 他 们";
+						array[2] = " 让 我 们 开 始 逐 步 重 新 审 视 布 拉 格 之 春";
 					}
 					else if (this.global1.number_event == 180)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Self-government is a pledge of socialism! Give us a big federalization!";
-						array[1] = "The position is normalized. Don't Change anything.";
+						array[0] = " 自 治 是 社 会 主 义 的 保 证 ！ 我 们 组 建 一 个 大 联 邦 吧 ！";
+						array[1] = " 情 况 已 经 正 常 化 了 。 什 么 都 不 要 改 变";
 						global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-						array[2] = "The normalization mode is not normalize so long to cancel it! ";
+						array[2] = " 正 常 化 模 式 不 是 让 我 们 花 这 么 长 时 间 正 常 化 ， 然 后 就 直 接 取 消 的 ！";
 					}
 					else if (this.global1.number_event == 181)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Let us try to soften the fall in profits by exporting to other CMEA countries. ";
-						array[1] = "Negotiate with developing countries. ";
-						array[2] = "The USSR will soon return to normal, that's all right.";
+						array[0] = " 让 我 们 通 过 提 高 对 其 他 经 互 会 国 家 的 出 口 来 缓 解 经 济 效 益 下 降";
+						array[1] = " 与 发 展 中 国 家 谈 判";
+						array[2] = " 苏 联 很 快 就 会 恢 复 正 常 ， 没 问 题";
 					}
 					else if (this.global1.number_event == 182)
 					{
 						this.kolvo_variant = 3;
-						array[0] = "Really. Let's agree. Looks like we do nothing for too long…";
-						array[1] = "Has normalization failed? No and no again. Everything is normal.";
-						array[2] = "We had to crush them before. Connect me with StB. There is work for them.";
+						array[0] = " 确 实 。 让 我 们 同 意 吧 。 看 起 来 我 们 已 经 太 久 没 有 采 取 行 动 了 …";
+						array[1] = " 正 常 化 难 道 失 败 了 吗 ？ 不 ， 绝 不 。 一 切 正 常";
+						array[2] = " 我 们 之 前 就 碾 碎 过 他 们 。 给 我 接 国 安 局 ， 有 活 干 了";
 					}
 					else if (this.global1.number_event == 183)
 					{
