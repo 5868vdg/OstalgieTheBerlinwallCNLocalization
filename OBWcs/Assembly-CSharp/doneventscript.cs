@@ -4421,7 +4421,7 @@ public class doneventscript : MonoBehaviour
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
 										array[0] = " 没 钱";
-										array[1] = " 我 们 没 钱 做 像 这 样 的 事 情";
+										array[1] = " 我 们 没 钱 做 像 这 样 的 项 目";
 									}
 									global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
 									array[2] = " 也 许 我 们 会 拍 一 部 关 于 切 尔 诺 贝 利 的 电 视 剧 ？";
@@ -4503,148 +4503,148 @@ public class doneventscript : MonoBehaviour
 									break;
 								case 220:
 									this.kolvo_variant = 3;
-									array[0] = "Allocate funds for the completion of the project";
+									array[0] = " 拨 款 完 成 这 个 项 目";
 									if (this.global1.data[8] < 100)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We don't have money for this";
+										array[0] = " 我 们 没 钱 给 这 个 项 目";
 									}
-									array[1] = "Send money for revision and invite experts from the GDR and Bulgaria";
+									array[1] = " 拨 款 进 行 改 进 ， 并 邀 请 来 自 民 主 德 国 和 保 加 利 亚 的 专 家";
 									if (this.global1.data[8] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We don't have money for this either";
+										array[1] = " 我 们 也 没 钱 给 这 个 项 目";
 									}
 									else if (this.global1.data[7] < 70 || this.global1.allcountries[1].Gosstroy > 0 || this.global1.allcountries[6].Gosstroy > 0)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "The fraternal countries are doing even worse";
+										array[1] = " 友 邦 的 情 况 还 要 更 糟";
 									}
-									array[2] = "Close down the construction of NPP";
+									array[2] = " 关 闭 核 电 站 的 建 设";
 									break;
 								case 221:
 									this.kolvo_variant = 3;
-									array[0] = "Introduce austerity policy";
-									array[1] = "Strengthen contacts with the remains of CMEA";
+									array[0] = " 引 入 紧 缩 政 策";
+									array[1] = " 加 强 与 剩 下 的 经 互 会 国 家 的 联 系";
 									if (!this.global1.allcountries[6].isSEV || this.global1.data[7] < 750 || this.global1.data[2] < 500)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "The socialist camp is doing even worse";
+										array[1] = " 社 会 主 义 阵 营 的 情 况 还 要 更 糟";
 										if (this.global1.data[2] < 500)
 										{
-											array[1] = "The Soviet Union will never help us!";
+											array[1] = " 苏 联 永 远 不 会 帮 助 我 们 ！";
 										}
 									}
-									array[2] = "We will stand, no matter what!";
+									array[2] = " 无 论 如 何 ， 我 们 都 会 坚 持 下 去 ！";
 									break;
 								case 222:
 									this.kolvo_variant = 3;
-									array[0] = "Accuse both of corruption and participation in drug trafficking";
+									array[0] = " 指 控 两 人 贪 污 和 参 与 毒 品 交 易";
 									if (this.global1.data[9] < 40)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "They're too powerful";
+										array[0] = " 他 们 太 有 影 响 力 了";
 									}
-									array[1] = "Put them under house arrest";
+									array[1] = " 将 他 们 软 禁";
 									if (this.global1.data[9] < 20)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We can't do that";
+										array[1] = " 我 们 做 不 到";
 									}
-									array[2] = "Soviet Union could betray us? I don't believe it!";
+									array[2] = " 苏 联 会 背 叛 我 们 ？ 我 不 相 信 ！";
 									break;
 								case 223:
 									this.kolvo_variant = 3;
-									array[0] = "Eliminate the enemy of the people with the help of intelligence networks";
+									array[0] = " 利 用 情 报 网 络 消 灭 人 民 的 敌 人";
 									if (this.global1.data[11] == 3)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We can't kill a man for his opinion";
+										array[0] = " 我 们 不 能 因 为 一 个 人 的 意 见 而 杀 死 他";
 									}
-									array[1] = "Let him shout";
-									array[2] = "Restore citizenship and allow to return to Cuba";
+									array[1] = " 就 让 他 继 续 叫 喊 吧";
+									array[2] = " 恢 复 他 的 公 民 身 份 并 允 许 返 回 古 巴";
 									if (this.global1.data[11] != 3)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Death to the traitors of the Cuban revolution!";
+										array[2] = " 打 倒 古 巴 革 命 的 背 叛 者 ！";
 									}
 									break;
 								case 224:
 									this.kolvo_variant = 3;
-									array[0] = "Revive the tourism industry, but limit the contacts of Cubans with visitors";
+									array[0] = " 振 兴 旅 游 业 ， 但 限 制 古 巴 人 与 游 客 的 接 触";
 									if (this.global1.data[11] == 3 || this.global1.data[18] == 18)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We can't do that";
+										array[0] = " 我 们 做 不 到";
 									}
-									array[1] = "Allow tourism for Western citizens and do not limit their communication with the local population";
+									array[1] = " 允 许 西 方 公 民 旅 游 并 不 限 制 他 们 与 当 地 人 群 的 交 流";
 									if (this.global1.data[11] != 3 || this.global1.data[18] < 21)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We won't allow Western propaganda!";
+										array[1] = " 我 们 不 会 允 许 西 方 的 政 治 宣 传 ！";
 									}
-									array[2] = "Reject";
+									array[2] = " 拒 绝";
 									break;
 								case 225:
 									this.kolvo_variant = 4;
-									array[0] = "Continue building socialism on the Marxist-Leninist basis";
+									array[0] = " 继 续 在 马 列 主 义 的 基 准 下 建 设 社 会 主 义";
 									if (this.global1.data[11] > 2 || this.global1.data[7] < 700 || this.global1.data[5] < 800)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "It's time to rethink the ideology";
+										array[0] = " 是 时 候 重 新 审 视 意 识 形 态 了";
 									}
-									array[1] = "Abandon the secondary positions of Marxism, but remain faithful to Lenin's ideals";
-									array[2] = "Move to Eurocommunism";
+									array[1] = " 放 弃 马 克 思 主 义 的 次 要 立 场 ， 但 保 持 对 列 宁 理 想 的 忠 诚";
+									array[2] = " 转 向 欧 洲 共 产 主 义";
 									if (this.global1.data[14] != 3 || this.global1.data[7] > 500)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Eurocommunism is not our way";
+										array[2] = " 欧 洲 共 产 主 义 不 是 我 们 的 道 路";
 									}
-									array[3] = "Abandon dogmatism and move to social democracy";
+									array[3] = " 放 弃 教 条 主 义 并 转 向 社 会 民 主 主 义";
 									if (this.global1.data[11] != 3 || this.global1.data[14] < 3 || this.global1.allcountries[7].Gosstroy == 0)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-										array[3] = "We are not ready for such a reversal";
+										array[3] = " 我 们 还 未 对 这 样 的 逆 转 做 好 准 备";
 									}
 									break;
 								case 226:
 									this.kolvo_variant = 3;
-									array[0] = "Open SEZ";
+									array[0] = " 开 放 经 济 特 区";
 									if (this.global1.data[18] < 20)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "No concessions to the imperialists!";
+										array[0] = " 不 向 帝 国 主 义 妥 协 ！";
 									}
-									array[1] = "Open SEZ and ease the pressure on small business";
+									array[1] = " 开 放 经 济 特 区 ， 缓 解 小 型 企 业 压 力";
 									if (this.global1.data[18] < 21)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We can't do what we fought against!";
+										array[1] = " 我 们 不 能 违 背 我 们 奋 斗 的 目 标 ！";
 									}
-									array[2] = "Refuse";
+									array[2] = " 拒 绝";
 									break;
 								case 227:
 									break;
 								case 228:
 									this.kolvo_variant = 4;
-									array[0] = "Remain true to Marxism-Leninism";
+									array[0] = " 保 持 对 马 列 主 义 的 忠 诚";
 									if (this.global1.data[80] < 80)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "Reforms must come to pass";
+										array[0] = " 必 须 进 行 改 革";
 									}
-									array[1] = "Go to Pakistani Islamic Socialism";
+									array[1] = " 转 向 巴 基 斯 坦 式 的 伊 斯 兰 社 会 主 义";
 									if (this.global1.data[80] < 60 || this.global1.data[11] != 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "It's too radical";
+										array[1] = " 太 激 进 了";
 									}
-									array[2] = "Transform the party, abandoning Marxism-Leninism";
-									array[3] = "Reform the PDPA and go to negotiations with moderate opposition.";
+									array[2] = " 令 党 转 型 ， 放 弃 马 列 主 义";
+									array[3] = " 改 革 阿 富 汗 人 民 民 主 党 并 与 温 和 反 对 派 谈 判";
 									if (this.global1.data[11] == 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-										array[3] = "This is a bust and abuse of the Great April Revolution!";
+										array[3] = " 这 太 过 分 了 ， 简 直 是 对 伟 大 的 四 月 革 命 的 亵 渎 ！";
 									}
 									break;
 								case 229:
