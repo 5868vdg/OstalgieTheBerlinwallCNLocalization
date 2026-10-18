@@ -4649,81 +4649,81 @@ public class doneventscript : MonoBehaviour
 									break;
 								case 229:
 									this.kolvo_variant = 5;
-									array[0] = "Strike the last blow to the opposition";
+									array[0] = " 给 反 对 派 最 后 一 击";
 									if (this.global1.allcountries[7].Vyshi || this.global1.data[9] < 80 || this.global1.data[106] != 0)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We have not recovered from the civil war";
+										array[0] = " 我 们 还 未 从 内 战 中 恢 复";
 									}
-									array[1] = "Negotiate with the opposition";
+									array[1] = " 与 反 对 派 谈 判";
 									if (this.global1.data[11] == 1 || this.global1.data[9] < 40)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "They will refuse";
+										array[1] = " 他 们 会 拒 绝";
 									}
-									array[2] = "Replace the radicals with your people";
+									array[2] = " 在 激 进 分 子 中 安 插 我 们 的 人";
 									if (this.global1.data[9] < 60 || this.global1.data[106] != 0)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Opposition still united";
+										array[2] = " 反 对 派 仍 然 团 结";
 									}
-									array[3] = "Opposition will destroy itself";
-									array[4] = "Negotiate with Ahmad Shah, giving the North autonomy";
+									array[3] = " 反 对 派 将 自 取 灭 亡";
+									array[4] = " 与 艾 哈 迈 德 · 沙 阿 谈 判 ， 给 予 北 方 自 治 权";
 									if (this.global1.data[9] < 60 || this.global1.data[80] < 60 || this.global1.data[8] < 30 || this.global1.data[93] == 0 || this.global1.data[11] != 3)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[4]);
-										array[4] = "Why do we need them?";
+										array[4] = " 我 们 为 什 么 需 要 他 们 ？";
 									}
 									break;
 								case 230:
 									this.kolvo_variant = 3;
-									array[0] = "Cooperate with moderate opposition and accept their demands";
+									array[0] = " 与 温 和 反 对 派 合 作 并 接 受 他 们 的 要 求";
 									if (this.global1.data[11] == 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "Cooperate with the radicals is offensive to us";
+										array[0] = " 与 激 进 分 子 合 作 对 我 们 来 说 是 一 种 侮 辱";
 									}
-									array[1] = "Negotiate with the opposition and abandon the coalition with Islamic fundamentalists";
+									array[1] = " 与 反 对 派 谈 判 并 放 弃 与 原 教 旨 伊 斯 兰 主 义 者 的 联 合";
 									if (this.global1.data[4] > 250 || this.global1.data[80] < 60)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
 										array[1] = "";
 									}
-									array[2] = "Break negotiations and shoot enemies of the people";
+									array[2] = " 中 止 谈 判 并 枪 毙 人 民 的 敌 人";
 									if (this.global1.data[11] != 1 || this.global1.data[9] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Didn’t we come to an agreement with the opposition?";
+										array[2] = " 我 们 不 是 已 经 和 反 对 派 达 成 协 议 了 吗 ？";
 									}
 									break;
 								case 231:
 									this.kolvo_variant = 3;
-									array[0] = "Conduct an operation no matter what!";
-									array[1] = "Conduct an operation, but allocate funds to protect civilians";
+									array[0] = " 无 论 如 何 ， 执 行 行 动 ！";
+									array[1] = " 执 行 行 动 ， 但 要 分 配 资 金 保 护 平 民";
 									if (this.global1.data[8] < 20)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We don't have so much money";
+										array[1] = " 我 们 没 那 么 多 钱";
 									}
-									array[2] = "Persuade the Soviet leadership to cancel the operation";
+									array[2] = " 说 服 苏 联 领 导 层 取 消 该 行 动";
 									break;
 								case 232:
 									this.kolvo_variant = 3;
-									array[0] = "Put pressure on Pakistan to respect the agreement";
-									array[1] = "Encourage Pakistan to comply with the agreements and demand the opening of the border for the return of Afghan refugees";
+									array[0] = " 向 巴 基 斯 坦 施 压 要 求 遵 守 协 议";
+									array[1] = " 鼓 励 巴 基 斯 坦 遵 守 协 议 并 要 求 开 放 边 界 以 便 阿 富 汗 难 民 返 回";
 									global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-									array[2] = "We cannot declare war on Pakistan";
+									array[2] = " 我 们 不 能 对 巴 基 斯 坦 宣 战";
 									break;
 								case 233:
 									this.kolvo_variant = 3;
-									array[0] = "Persuade Allies to Sanction Pakistan for Supporting Terrorism";
+									array[0] = " 说 服 盟 友 以 支 持 恐 怖 主 义 为 由 对 巴 基 斯 坦 实 施 制 裁";
 									if (this.global1.data[7] < 650)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "They won’t do it";
+										array[0] = " 他 们 不 会 这 么 做";
 									}
-									array[1] = "With the support of the Soviet Union, put pressure on Pakistan and persuade it to resume negotiations";
-									array[2] = "Continue the fight against the mujahideen";
+									array[1] = " 在 苏 联 的 支 持 下 ， 施 压 巴 基 斯 坦 并 说 服 他 们 恢 复 谈 判";
+									array[2] = " 继 续 与 圣 战 军 的 斗 争";
 									break;
 								case 234:
 									this.kolvo_variant = 3;
