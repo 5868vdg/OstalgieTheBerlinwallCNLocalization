@@ -4727,132 +4727,132 @@ public class doneventscript : MonoBehaviour
 									break;
 								case 234:
 									this.kolvo_variant = 3;
-									array[0] = "Allow Zahir Shah to return to his homeland";
+									array[0] = " 允 许 查 希 尔 · 沙 赫 回 到 他 的 家 乡";
 									if (this.global1.data[11] == 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "Khalqists will not understand us";
+										array[0] = " 人 民 派 不 会 理 解 我 们";
 									}
-									array[1] = "Allow the return of the king and legalize the NLFA";
+									array[1] = " 允 许 国 王 回 归 并 合 法 化 阿 富 汗 民 族 解 放 阵 线";
 									if (this.global1.data[11] == 1 || this.global1.data[82] != 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "No concessions to mujahideen";
+										array[1] = " 绝 不 向 圣 战 军 妥 协";
 									}
-									array[2] = "Refuse";
+									array[2] = " 拒 绝";
 									break;
 								case 235:
 									this.kolvo_variant = 3;
-									array[0] = "Arrest Army Officers and Generals";
+									array[0] = " 逮 捕 军 官 与 将 军";
 									if (this.global1.data[9] < 30)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "They are more powerful than us";
+										array[0] = " 他 们 比 我 们 更 有 权 势";
 									}
-									array[1] = "Arrest and throw in information about Tanai’s cooperation with the opposition";
+									array[1] = " 实 施 逮 捕 ， 并 披 露 塔 奈 与 反 对 派 开 展 合 作 的 相 关 信 息";
 									if (this.global1.data[9] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "Khalqists are too strong";
+										array[1] = " 人 民 派 太 强 大 了";
 									}
-									array[2] = "Wait";
+									array[2] = " 等 待";
 									break;
 								case 236:
 									this.kolvo_variant = 2;
-									array[0] = "Najibullah removes Tanai from the post of Minister of Defense and sends loyal units of the army to prevent rebellion";
-									array[1] = "Tanai lures the Kabul military to his side and organizes a coup against Najibullah.";
+									array[0] = " 纳 吉 布 拉 免 去 塔 奈 的 国 防 部 长 职 务 并 派 遣 忠 诚  的 部 队 防 范 叛 乱";
+									array[1] = " 塔 奈 引 诱 喀 布 尔 军 队 倒 向 自 己 并 组 织 了 一 场 针 对 纳 吉 布 拉 的 政 变";
 									break;
 								case 237:
 									this.kolvo_variant = 3;
-									array[0] = "Militarize the capital";
+									array[0] = " 军 事 化 首 都";
 									if (this.global1.data[3] < 300)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "The people will not come to our support";
+										array[0] = " 人 民 不 会 支 持 我 们";
 									}
-									array[1] = "Request help from the socialist camp";
+									array[1] = " 向 社 会 主 义 阵 营 请 求 帮 助";
 									if (this.global1.data[7] < 300)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "The social camp will not help us";
+										array[1] = " 社 会 主 义 阵 营 不 会 帮 助 我 们";
 									}
-									array[2] = "Hope for the best";
+									array[2] = " 祈 求 最 好 的 结 果";
 									break;
 								case 238:
 									this.kolvo_variant = 5;
-									array[0] = "Advancing north!";
+									array[0] = " 向 北 推 进 ！";
 									if (this.global1.data[93] == 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "North protected by government!";
+										array[0] = " 北 方 已 在 政 府 的 庇 护 之 下 ！";
 									}
 									else if (this.global1.data[9] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We do not have the strength to return the North to our fold";
+										array[0] = " 我 们 没 有 力 量 让 北 方 回 到 我 们 的 怀 抱";
 									}
-									array[1] = "Our goal is west!";
+									array[1] = " 我 们 的 目 标 是 西 部 ！";
 									if (this.global1.data[92] == 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "West Afghanistan cleared of rebels!";
+										array[1] = " 西 阿 富 汗 叛 军 已 肃 清 ！";
 									}
 									else if (this.global1.data[9] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "Mujahideen in the West are too strong";
+										array[1] = " 西 部 的 圣 战 军 太 强 大 了";
 									}
-									array[2] = "Fight the rebels back to the border of Pakistan, go east!";
+									array[2] = " 把 叛 军 赶 回 巴 基 斯 坦 边 境 ， 向 东 进 发 ！";
 									if (this.global1.data[90] == 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Cowards flee back to Pakistan, glory to the Afghan east!";
+										array[2] = " 懦 夫 们 已 经 逃 回 巴 基 斯 坦 ， 东 阿 富 汗 万 岁 ！";
 									}
 									else if (this.global1.data[9] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Pakistan holds East under its control";
+										array[2] = " 巴 基 斯 坦 将 东 部 置 于 其 控 制 之 下";
 									}
-									array[3] = "Destroy the rebellious south!";
+									array[3] = " 摧 毁 反 叛 的 南 方 ！";
 									if (this.global1.data[94] == 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-										array[3] = "South is under the patronage of the people's government!";
+										array[3] = " 南 部 正 处 于 人 民 政 府 的 庇 护 之 下 ！";
 									}
 									else if (this.global1.data[9] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-										array[3] = "Southern rebels too strong";
+										array[3] = " 南 部 的 叛 乱 分 子 太 强 大 了";
 									}
-									array[4] = "Wait";
+									array[4] = " 等 待";
 									break;
 								case 239:
 									this.kolvo_variant = 3;
-									array[0] = "Call on Warsaw Pact countries for help";
+									array[0] = " 向 华 约 国 家 求 助";
 									if (this.global1.data[7] <= 250)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "The social camp is even worse";
+										array[0] = " 社 会 主 义 阵 营 的 情 况 更 差";
 									}
-									array[1] = "Request help from the USSR";
-									array[2] = "They have worse problems than ours";
+									array[1] = " 向 苏 联 请 求 帮 助";
+									array[2] = " 他 们 有 比 我 们 更 严 重 的 问 题";
 									break;
 								case 240:
 									this.kolvo_variant = 3;
-									array[0] = "Thank the Soviet people in fraternal assistance to Afghanistan";
-									array[1] = "We cannot refuse it. Don't even think about it.";
-									array[2] = "Najibullah is resolutely resigning.";
+									array[0] = " 感 谢 苏 联 人 民 对 阿 富 汗 提 供 的 兄 弟 般 的 援 助";
+									array[1] = " 我 们 不 能 拒 绝 ， 别 想 了";
+									array[2] = " 纳 吉 布 拉 坚 决 辞 职";
 									global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
 									break;
 								case 241:
 									this.kolvo_variant = 2;
-									array[0] = "Direct government forces to fight rebels";
+									array[0] = " 派 遣 政 府 军 去 打 击 叛 军";
 									if (this.global1.data[9] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "Government has no power to break opposition back";
+										array[0] = " 政 府 没 有 力 量 来 打 击 叛 军";
 									}
-									array[1] = "They took us by surprise!";
+									array[1] = " 他 们 打 了 我 们 一 个 措 手 不 及 ！";
 									break;
 								case 242:
 									this.kolvo_variant = 3;
@@ -21376,7 +21376,7 @@ public class doneventscript : MonoBehaviour
 								break;
 							case 235:
 								text2 = "Khalq";
-								text = "As you know, during the great Saur Revolution, the main part in the coup was taken by the radical wing of the People's Democratic Party of Afghanistan - the Khalq, under the leadership of Taraki and Amin. After the coming of power, the parchamist Babrak Karmal began mass persecution against the leaders and members of the Khalq and now, after the withdrawal of Soviet troops, the confrontation in the party reached a boiling point. According to the Ministry of State Security, some of the Khalq's generals whose secret leader is Defense Minister Shahnawaz Tanai are plotting against you. It is necessary to take measures - to arrest the traitors! But in this case, Tanai can oppose us on behalf of all the khalqists, maybe we need to throw in information about his cooperation with the mujahideen, which our intelligence agencies suggest, thereby getting rid of the unstable wing in the PDPA? Anyway, we can just wait.";
+								text = "As you know, during the great Saur Revolution, the main part in the coup was taken by the radical wing of the People's Democratic Party of Afghanistan - the Khalq, under the leadership of Taraki and Amin. After the coming of power, the parchamist Babrak Karmal began mass persecution against the leaders and members of the Khalq and now, after the withdrawal of Soviet troops, the confrontation in the party reached a boiling point. According to the Ministry of State Security, some of the Khalq's generals whose secret leader is Defense Minister 沙 纳 瓦 兹 · 塔 奈 are plotting against you. It is necessary to take measures - to arrest the traitors! But in this case, Tanai can oppose us on behalf of all the khalqists, maybe we need to throw in information about his cooperation with the mujahideen, which our intelligence agencies suggest, thereby getting rid of the unstable wing in the PDPA? Anyway, we can just wait.";
 								break;
 							case 236:
 								text2 = "Tanai's rebellion";
