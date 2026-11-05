@@ -4856,90 +4856,90 @@ public class doneventscript : MonoBehaviour
 									break;
 								case 242:
 									this.kolvo_variant = 3;
-									array[0] = "Speak for social change and democracy in the whole world";
-									array[1] = "Call on the masses to rally against imperialist oppression.";
-									array[2] = "Congratulate the country on a holiday without touching foreign policy";
+									array[0] = " 为 全 世 界 的 社 会 变 革 与 民 主 发 声";
+									array[1] = " 呼 吁 人 民 团 结 起 来 对 抗 帝 国 主 义 压 迫";
+									array[2] = " 在 节 日 之 际 向 全 国 致 以 祝 贺 ， 且 不 涉 及 外 交 政 策";
 									break;
 								case 243:
 									this.kolvo_variant = 3;
-									array[0] = "Allocate funds for the completion of construction";
+									array[0] = " 注 资 完 成 建 设 工 作";
 									if (this.global1.data[8] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "The country's budget is empty, my Lord";
+										array[0] = " 国 库 空 了 ， 大 人";
 									}
-									array[1] = "Freeze the project and stop the work.";
-									array[2] = "Privatize the hotel and put it in the hands of foreign investors";
+									array[1] = " 冻 结 项 目 并 停 止 相 关 工 作";
+									array[2] = " 私 有 化 饭 店 并 交 由 外 国 投 资 者 掌 控";
 									if (this.global1.data[11] != 3)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Let us not put the merits of the working class in the hands of the capitalists!";
+										array[2] = " 绝 不 将 工 人 阶 级 的 功 绩 拱 手 交 给 资 本 家 ！";
 									}
 									break;
 								case 244:
 									this.kolvo_variant = 5;
-									array[0] = "Introduce family contract";
+									array[0] = " 引 入 家 庭 联 产 承 包 责 任 制";
 									if (this.global1.data[18] < 20)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "Can we not?";
+										array[0] = " 也 许 我 们 不 该 这 样 做 ？";
 									}
-									array[1] = "Give loans to collective farms for the modernization of equipment";
+									array[1] = " 向 集 体 农 庄 提 供 贷 款 以 现 代 化 设 备";
 									if (this.global1.data[18] > 20)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "It is time to end collective farm slavery!";
+										array[1] = " 是 时 候 结 束 集 体 农 庄 的 奴 役 了 ！";
 									}
-									array[2] = "Introduce private farming";
+									array[2] = " 引 入 私 有 化 农 业";
 									if (this.global1.data[18] < 21)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Can we not?";
+										array[2] = " 也 许 我 们 不 该 这 样 做 ？";
 									}
-									array[3] = "Privatize large agricultural associations, giving their ownership to investors";
+									array[3] = " 私 有 化 大 型 农 业 合 作 社 ， 将 其 所 有 权 交 给 投 资 者";
 									if (this.global1.data[18] < 21)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-										array[3] = "We are against the sale of public property!";
+										array[3] = " 我 们 反 对 出 售 公 共 财 产 ！";
 									}
-									array[4] = "Ignore request";
+									array[4] = " 忽 视 提 议";
 									break;
 								case 245:
 									this.kolvo_variant = 3;
-									array[0] = "Support Haile Mariam's regime";
+									array[0] = " 支 持 海 尔 · 马 里 亚 姆 政 权";
 									if ((this.global1.data[11] == 3 && this.global1.data[18] > 20 && this.global1.data[8] < 70) || this.global1.data[9] < 70 || this.global1.allcountries[41].Donat)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We will not support the tyrant!";
+										array[0] = " 我 们 不 会 支 持 暴 君 ！";
 									}
-									array[1] = "Withdraw troops from Ethiopia";
-									array[2] = "Help the opposition";
+									array[1] = " 从 埃 塞 俄 比 亚 撤 军";
+									array[2] = " 帮 助 反 对 派";
 									if ((this.global1.data[18] < 22 && this.global1.data[8] < 70) || this.global1.data[9] < 70 || this.global1.allcountries[41].Stasi)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "We donТt need this!";
+										array[2] = " 我 们 不 需 要 这 么 做 ！";
 									}
 									break;
 								case 246:
 									this.kolvo_variant = 4;
-									array[0] = "Accuse the khalqists of plotting and arrest them";
+									array[0] = " 指 控 人 民 派 成 员 策 划 阴 谋 ， 并 将 他 们 逮 捕";
 									if (this.global1.data[11] != 2)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We will not go against them!";
+										array[0] = " 我 们 不 会 与 他 们 作 对 ！";
 									}
-									array[1] = "Accuse the parchamists of plotting and arrest them";
+									array[1] = " 指 控 旗 帜 派 成 员 策 划 阴 谋 ， 并 将 他 们 逮 捕";
 									if (this.global1.data[11] != 1)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We will not go against them!";
+										array[1] = " 我 们 不 会 与 他 们 作 对 ！";
 									}
-									array[2] = "Party will survive this";
-									array[3] = "Expand the Central Committee by initiating the call of new members to the party";
+									array[2] = " 党 能 挺 过 这 一 关";
+									array[3] = " 通 过 启 动 吸 收 新 党 员 的 工 作 以 扩 大 中 央 委 员 会";
 									if (this.global1.data[11] == 3)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-										array[3] = "What do we care about the party?";
+										array[3] = " 党 有 什 么 值 得 我 们 操 心 的 ？";
 									}
 									break;
 								case 247:
