@@ -4944,30 +4944,30 @@ public class doneventscript : MonoBehaviour
 									break;
 								case 247:
 									this.kolvo_variant = 2;
-									array[0] = this.global1.politics_name[this.global1.data[11]] + " convenes a parliament and transfers state power to Dostum, who will form a government independent of the PDPA";
-									array[1] = this.global1.politics_name[this.global1.data[11]] + " rejects the proposal of the party members and remains president";
+									array[0] = this.global1.politics_name[this.global1.data[11]] + " 召 集 议 会 ， 并 将 国 家 权 力 移 交 给 杜 斯 塔 姆 ， 他 将 组 建 一 个 独 立 于 阿 富 汗 人 民 民 主 党 之 外 的 政 府";
+									array[1] = this.global1.politics_name[this.global1.data[11]] + " 拒 绝 了 党 员 们 的 提 议 ， 并 留 任 总 统";
 									break;
 								case 248:
 									this.kolvo_variant = 4;
-									array[0] = "Return to 1978 Reform";
+									array[0] = " 恢 复1978 改 革";
 									if (this.global1.data[18] > 20)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "Why repeat our mistakes again?";
+										array[0] = " 为 什 么 要 重 复 我 们 的 错 误 ？";
 									}
-									array[1] = "Review the results and start the return of private property";
+									array[1] = " 重 新 审 视 结 果 ， 并 着 手 归 还 私 有 财 产";
 									if (this.global1.data[18] < 21)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We are against the restoration of feudalism!";
+										array[1] = " 我 们 反 对 恢 复 封 建 主 义！";
 									}
-									array[2] = "Fund the creation of agricultural cooperatives ";
+									array[2] = " 资 助 成 立 农 业 合 作 社";
 									if (this.global1.data[18] > 20 || this.global1.data[8] < 50)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[2]);
-										array[2] = "Collective farms are not our choice!";
+										array[2] = " 集 体 农 庄 不 是 我 们 的 选 择 ！";
 									}
-									array[3] = "Do nothing";
+									array[3] = " 什 么 也 不 做";
 									break;
 								case 249:
 									this.kolvo_variant = 4;
