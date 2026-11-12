@@ -4535,7 +4535,7 @@ public class doneventscript : MonoBehaviour
 											array[1] = " 苏 联 永 远 不 会 帮 助 我 们 ！";
 										}
 									}
-									array[2] = " 无 论 如 何 ， 我 们 都 会 坚 持 下 去 ！";
+									array[2] = " 无 论 如 何 ， 我 们 都 将 坚 持 下 去 ！";
 									break;
 								case 222:
 									this.kolvo_variant = 3;
@@ -5065,60 +5065,60 @@ public class doneventscript : MonoBehaviour
 									break;
 								case 255:
 									this.kolvo_variant = 5;
-									array[0] = "Mobilize agents and redeem nuclear weapons blueprints from Ceausescu";
+									array[0] = " 动 员 间 谍 从 齐 奥 塞 斯 库 手 中 购 买 核 武 器 蓝 图";
 									if (this.global1.data[99] != 1 || this.global1.allcountries[5].Gosstroy != 9 || this.global1.event_done[12] || this.global1.data[14] > 1 || this.global1.data[8] < 70)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "We can’t do it";
+										array[0] = " 我 们 做 不 到";
 									}
-									array[1] = "Bribe Indian officials and buy blueprints. ";
+									array[1] = " 贿 赂 印 度 官 员 购 买 蓝 图";
 									if (this.global1.data[18] > 20 || this.global1.data[8] < 180)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[1]);
-										array[1] = "We cannot afford it";
+										array[1] = " 我 们 承 担 不 起";
 									}
-									array[2] = "We will deal with this later";
-									array[3] = "Instead of threats, we will begin to open ourselves up to the world and stop the achievements of nuclear weapons.";
+									array[2] = " 我 们 晚 点 再 处 理 这 个 问 题";
+									array[3] = " 不 使 用 威 胁 ， 而 是 开 始 向 世 界 开 放 ， 并 终 止 核 武 器 的 研 发";
 									if (this.global1.data[11] != 1 || this.global1.data[18] < 21)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[3]);
-										array[3] = "Not one step back!";
+										array[3] = " 一 步 都 不 准 后 退 ！";
 									}
-									array[4] = "Nuclear weapons are not our way out, but buying new models of weapons from the socialist camp is a godly affair";
+									array[4] = " 核 武 器 并 非 我 们 的 解 决 之 道 ， 但 从 社 会 主 义 阵 营 采 购 新 型 武 器 装 备 — — 这 可 是 件 符 合 神 意 的 事";
 									if (this.global1.data[7] < 650 && this.global1.data[8] < 30)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[4]);
-										array[4] = "The social camp is no more ...";
+										array[4] = " 社 会 主 义 阵 营 已 不 复 存 在 … …";
 									}
 									break;
 								case 256:
 									this.kolvo_variant = 3;
-									array[0] = "Request permission to return to OAS";
-									array[1] = "Change orientation to third world countries";
-									array[2] = "There can be no compromise! We will stand, no matter what!";
+									array[0] = " 请 求 获 准 重 返 美 洲 国 家 组 织";
+									array[1] = " 将 重 心 转 向 第 三 世 界 国 家";
+									array[2] = " 绝 不 妥 协 ！ 无 论 如 何 ， 我 们 都 将 坚 持 下 去 ！";
 									break;
 								case 257:
 									this.kolvo_variant = 3;
-									array[0] = "Appoint Mariela the Minister of Culture of Cuba";
+									array[0] = " 任 命 玛 丽 埃 拉 为 古 巴 文 化 部 长";
 									if (this.global1.data[14] < 3)
 									{
 										global::UnityEngine.Object.Destroy(this.galka_stuk[0]);
-										array[0] = "Let's go without nepotism?..";
+										array[0] = " 我 们 能 避 免 任 人 唯 亲 吗 ？ …";
 									}
-									array[1] = "Do not rock the boat";
-									array[2] = "Bring the daughter out of politics for the good of the Cuban revolution";
+									array[1] = " 没 必 要 打 破 现 状";
+									array[2] = " 为 了 古 巴 革 命 ， 让 自 己 的 女 儿 退 出 政 治 领 域";
 									break;
 								case 258:
 									this.kolvo_variant = 3;
-									array[0] = "Let's remove the Parcham with the hands of Gulyabzoy";
-									array[1] = "Raz Paktin can give our people the most precious thing - water";
-									array[2] = "Better let Sarwari deal with the enemies of the Revolution";
+									array[0] = " 让 我 们 借 古 拉 布 祖 依 的 手 来 移 除 旗 帜 派";
+									array[1] = " 拉 兹 · 帕 克 提 尼 能 给 我 们 的 人 民 带 来 最 珍 贵 的 事 物 — — 水";
+									array[2] = " 最 好 让 萨 尔 瓦 里 去 处 理 革 命 的 敌 人";
 									break;
 								case 259:
 									this.kolvo_variant = 3;
-									array[0] = "Conduct an operation to eliminate Ulumi and his supporters";
-									array[1] = "Better autonomy, but a safe rear";
-									array[2] = "Lure the tribes over to our side and arrest Ulumi";
+									array[0] = " 实 行 一 场 行 动 以 消 灭 乌 鲁 米 和 他 的 支 持 者";
+									array[1] = " 最 好 给 他 自 治 权 ， 以 此 获 得 稳 固 的 后 方";
+									array[2] = " 将 各 部 落 拉 拢 到 我 们 这 边 ， 并 逮 捕 乌 鲁 米";
 									break;
 								default:
 									switch (number_event)
@@ -21546,7 +21546,7 @@ public class doneventscript : MonoBehaviour
 								break;
 							case 259:
 								text2 = "Kandahar";
-								text = "Nur ul-Haq Ulumi has long been the head of the province with the city of Kandahar. Even Soviet specialists noted the effectiveness of his work - the activity of the Mujahideen here was minimal, the situation was stable, and the population received the PDPA warmly. However, his policy also has its drawbacks - Ulumi often did not obey the decisions of the Central Committee, refused to use violent methods, entered into negotiations with the Mujahideen and supplied them with food and finance in exchange for a truce. Moreover, Ulumi is a member of the Parcham faction and, earlier as a military leader, actively advocated the parchamization of the army and the withdrawal of all Khalqists from the armed forces. Now that we, the Khalqists, are in power, Ulumi is showing more and more insubordination and, now, demands to give him autonomy in Kandahar for independent internal political control of the region. But be careful, he has some relatives in the in the Ministry of Defense and General Staff.";
+								text = " 努 尔 · 哈 克 · 乌 鲁 米 has long been the head of the province with the city of Kandahar. Even Soviet specialists noted the effectiveness of his work - the activity of the Mujahideen here was minimal, the situation was stable, and the population received the PDPA warmly. However, his policy also has its drawbacks - Ulumi often did not obey the decisions of the Central Committee, refused to use violent methods, entered into negotiations with the Mujahideen and supplied them with food and finance in exchange for a truce. Moreover, Ulumi is a member of the Parcham faction and, earlier as a military leader, actively advocated the parchamization of the army and the withdrawal of all Khalqists from the armed forces. Now that we, the Khalqists, are in power, Ulumi is showing more and more insubordination and, now, demands to give him autonomy in Kandahar for independent internal political control of the region. But be careful, he has some relatives in the in the Ministry of Defense and General Staff.";
 								break;
 							default:
 								switch (number_event)
